@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard REST API</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=2">
+</head>
+
+<body>
+
+    <h1>Whiteboard REST API</h1>
+
+    <div class="buttons">
+        <label style="font-weight:bold; margin-right:4px;">&#9998; Color:</label>
+        <input type="color" id="colorPicker" value="#000000" onchange="changeColor(this.value)">
+        <span style="margin-left:10px; font-size:14px; color:#555;">Left-click = Pencil &nbsp;|&nbsp; Right-click = Eraser</span>
+        <button onclick="saveBoard()">Save</button>
+        <button onclick="loadBoard()">Load</button>
+        <button onclick="clearBoard()">Clear</button>
+    </div>
+
+    <canvas id="board" width="900" height="600"></canvas>
+
+    <script src="{{ url_for('static', filename='script.js') }}?v=2"></script>
+
+</body>
+
+</html>
