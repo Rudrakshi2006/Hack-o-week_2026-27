@@ -1,0 +1,174 @@
+{
+    "data_prep": {
+        "records_loaded": 150,
+        "features": [
+            "SepalLengthCm",
+            "SepalWidthCm",
+            "PetalLengthCm",
+            "PetalWidthCm"
+        ]
+    },
+    "vectors": {
+        "description": "A vector describes one specific flower in 4D space.",
+        "purpose": "In data science, vectors represent a single data point. We can measure their length (magnitude) to see how mathematically \"unusual\" or extreme a data point is compared to the average.",
+        "value": [
+            5.1,
+            3.5,
+            1.4,
+            0.2
+        ],
+        "image": "assets/vectors.png"
+    },
+    "matrices": {
+        "description": "A matrix groups multiple vectors together. The covariance matrix shows how features relate.",
+        "purpose": "Matrices hold our entire dataset. The covariance matrix is a special square matrix showing if two features increase together (like Petal Length and Width) or move oppositely.",
+        "value": [
+            [
+                5.1,
+                3.5,
+                1.4,
+                0.2
+            ],
+            [
+                4.9,
+                3.0,
+                1.4,
+                0.2
+            ],
+            [
+                4.7,
+                3.2,
+                1.3,
+                0.2
+            ],
+            [
+                4.6,
+                3.1,
+                1.5,
+                0.2
+            ],
+            [
+                5.0,
+                3.6,
+                1.4,
+                0.2
+            ]
+        ],
+        "shape": [
+            5,
+            4
+        ],
+        "image": "assets/matrices.png"
+    },
+    "dot_product": {
+        "description": "The dot product measures similarity or computes a weighted sum.",
+        "purpose": "The dot product calculates a \"weighted sum\" for predictions, or measures the geometric similarity between two data points (as seen in the Gram Matrix heatmap).",
+        "weights": [
+            0.1,
+            0.5,
+            1.5,
+            -0.2
+        ],
+        "result": 4.319999999999999,
+        "image": "assets/dot_product.png"
+    },
+    "eigen": {
+        "description": "Eigenvalues correspond to the variance captured by each eigenvector.",
+        "purpose": "Eigenvectors find the \"main directions\" hidden inside our data (e.g. general size). Eigenvalues tell us how much variance each direction captures. This is how PCA compresses data.",
+        "covariance_matrix": [
+            [
+                1.01,
+                -0.11,
+                0.88,
+                0.82
+            ],
+            [
+                -0.11,
+                1.01,
+                -0.42,
+                -0.36
+            ],
+            [
+                0.88,
+                -0.42,
+                1.01,
+                0.97
+            ],
+            [
+                0.82,
+                -0.36,
+                0.97,
+                1.01
+            ]
+        ],
+        "eigenvalues": [
+            2.93,
+            0.93,
+            0.15,
+            0.02
+        ],
+        "eigenvectors": [
+            [
+                0.52,
+                -0.37,
+                -0.72,
+                0.26
+            ],
+            [
+                -0.26,
+                -0.93,
+                0.24,
+                -0.12
+            ],
+            [
+                0.58,
+                -0.02,
+                0.14,
+                -0.8
+            ],
+            [
+                0.57,
+                -0.07,
+                0.63,
+                0.52
+            ]
+        ],
+        "image": "assets/eigen.png"
+    },
+    "forward_pass": {
+        "description": "Forward pass pushes data through equations to get a prediction.",
+        "purpose": "The forward pass is \"using the model\". It pushes data through our equations to get a prediction, and the Loss function calculates exactly how wrong our prediction was.",
+        "initial_predictions": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "initial_loss": 0.6931
+    },
+    "gradients": {
+        "description": "The gradient (vector of derivatives) points towards higher loss.",
+        "purpose": "Derivatives measure the \"rate of change\". The gradient uses the chain rule to tell us precisely how tweaking every single weight will affect our final loss.",
+        "dw": [
+            -0.3381929895049466,
+            0.2807689310268913,
+            -0.4349594514022368,
+            -0.4183762068172069
+        ],
+        "db": -0.16666666666666666
+    },
+    "gradient_descent": {
+        "description": "By repeating gradient descent, the loss decreases dramatically.",
+        "purpose": "This is how machines \"learn\". We take our weights and step opposite to the gradient to reduce our loss. Over many steps, the model becomes accurate, as seen in the loss curve.",
+        "updated_weights": [
+            0.5413274536044843,
+            -0.6322065888370085,
+            0.8037398567753424,
+            0.7612932780747094
+        ],
+        "new_loss": 0.1351,
+        "loss_decrease": 0.558,
+        "image": "assets/gradient_descent.png"
+    }
+}

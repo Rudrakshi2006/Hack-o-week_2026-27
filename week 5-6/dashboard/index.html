@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Intuitions Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Machine Learning Foundations</h1>
+                <p>Mathematical intuition applied to the Iris Dataset</p>
+            </div>
+            <div class="stats-pill" id="data-prep-pill">
+                Loading Data...
+            </div>
+        </header>
+
+        <main>
+            <section class="section-container">
+                <div class="section-title">
+                    <h2>Linear Algebra</h2>
+                </div>
+                
+                <div class="grid">
+                    <!-- Vectors -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Vectors</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="purpose-box" id="vectors-purpose">Loading purpose...</div>
+                            <img class="concept-image" id="vectors-image" src="" alt="Vectors Visualization">
+                            <p class="description" id="vectors-desc">Loading...</p>
+                            <div class="data-display">
+                                <span class="label">Vector:</span>
+                                <code id="vectors-val">[...]</code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Matrices -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Matrices</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="purpose-box" id="matrices-purpose">Loading purpose...</div>
+                            <img class="concept-image" id="matrices-image" src="" alt="Matrices Visualization">
+                            <p class="description" id="matrices-desc">Loading...</p>
+                            <div class="data-display">
+                                <span class="label">Shape: <span id="matrices-shape" class="highlight"></span></span>
+                                <pre><code id="matrices-val">...</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dot Product -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Dot Product</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="purpose-box" id="dot-purpose">Loading purpose...</div>
+                            <img class="concept-image" id="dot-image" src="" alt="Dot Product Visualization">
+                            <p class="description" id="dot-desc">Loading...</p>
+                            <div class="data-display split">
+                                <div>
+                                    <span class="label">Weights:</span>
+                                    <code id="dot-weights">[...]</code>
+                                </div>
+                                <div class="result-box">
+                                    <span class="label">Result:</span>
+                                    <span class="big-number" id="dot-result">0.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Eigen -->
+                    <div class="card span-2">
+                        <div class="card-header">
+                            <h3>Eigenvalues & Eigenvectors</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="purpose-box" id="eigen-purpose">Loading purpose...</div>
+                            <img class="concept-image" id="eigen-image" src="" alt="Eigenvalues Visualization">
+                            <p class="description" id="eigen-desc">Loading...</p>
+                            <div class="data-display split three-way">
+                                <div>
+                                    <span class="label">Covariance Matrix:</span>
+                                    <pre><code id="eigen-cov">...</code></pre>
+                                </div>
+                                <div>
+                                    <span class="label">Eigenvalues:</span>
+                                    <code id="eigen-vals">[...]</code>
+                                </div>
+                                <div>
+                                    <span class="label">Eigenvectors:</span>
+                                    <pre><code id="eigen-vecs">...</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-container mt-xl">
+                <div class="section-title">
+                    <h2>Calculus & Backpropagation</h2>
+                </div>
+
+                <div class="grid">
+                    <!-- Forward Pass -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Forward Pass</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="purpose-box" id="fw-purpose">Loading purpose...</div>
+                            <p class="description" id="fw-desc">Loading...</p>
+                            <div class="data-display split">
+                                <div>
+                                    <span class="label">Initial Predictions (y_hat):</span>
+                                    <code id="fw-preds">[...]</code>
+                                </div>
+                                <div class="result-box error">
+                                    <span class="label">Initial Loss:</span>
+                                    <span class="big-number" id="fw-loss">0.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gradients -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Derivatives & Gradients</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="purpose-box" id="grad-purpose">Loading purpose...</div>
+                            <p class="description" id="grad-desc">Loading...</p>
+                            <div class="data-display">
+                                <span class="label">Gradient (dw):</span>
+                                <code id="grad-dw">[...]</code>
+                                <div class="mt-sm">
+                                    <span class="label">Bias Gradient (db):</span>
+                                    <span class="highlight" id="grad-db">0.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gradient Descent -->
+                    <div class="card span-2">
+                        <div class="card-header">
+                            <h3>Gradient Descent Step</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="purpose-box" id="gd-purpose">Loading purpose...</div>
+                            <img class="concept-image" id="gd-image" src="" alt="Gradient Descent Visualization">
+                            <p class="description" id="gd-desc">Loading...</p>
+                            <div class="data-display split">
+                                <div>
+                                    <span class="label">Updated Weights:</span>
+                                    <code id="gd-weights">[...]</code>
+                                </div>
+                                <div class="result-box success">
+                                    <span class="label">Final Loss:</span>
+                                    <span class="big-number" id="gd-loss">0.0</span>
+                                    <div class="badge mt-sm" id="gd-diff">-0.0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
