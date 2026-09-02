@@ -1,0 +1,14 @@
+=========================================
+      HOUSE PRICE ANALYTICS REPORT       
+=========================================
+
+Total Number of Houses : 300
+Average House Price    : $363,583.37
+Highest House Price    : $657,998.00
+Lowest House Price     : $70,567.00
+Average Area (sq ft)   : 2,276.95
+Average Bedrooms       : 2.3
+
+=========================================
+        End of Summary Report            
+=========================================

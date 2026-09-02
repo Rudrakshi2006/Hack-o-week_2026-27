@@ -1,0 +1,504 @@
+Show_ID,Type,Title,Director,Country,Release_Year,Rating,Duration
+s1,Movie,Title 1,Director 15,Japan,2014,R,98 min
+s2,TV Show,Title 2,Director 1,United Kingdom,2011,PG-13,3 Seasons
+s3,TV Show,Title 3,,United States,2015,R,4 Seasons
+s4,Movie,Title 4,Director 98,Canada,2023,R,85 min
+s5,Movie,Title 5,,Japan,2018,R,124 min
+s6,Movie,Title 6,Director 33,United States,2007,TV-Y,105 min
+s7,Movie,Title 7,Director 45,Spain,2020,R,168 min
+s8,TV Show,Title 8,Director 28,Canada,2016,R,1 Seasons
+s9,Movie,Title 9,Director 72,Spain,2022,TV-14,165 min
+s10,TV Show,Title 10,,South Korea,2004,TV-MA,3 Seasons
+s11,Movie,Title 11,Director 84,Japan,2021,TV-PG,107 min
+s12,TV Show,Title 12,Director 42,India,2015,TV-MA,4 Seasons
+s13,TV Show,Title 13,Director 7,Spain,2005,R,1 Seasons
+s14,Movie,Title 14,Director 62,France,2007,TV-14,89 min
+s15,Movie,Title 15,Director 28,United States,2017,PG-13,104 min
+s16,Movie,Title 16,Director 22,United States,2011,TV-14,139 min
+s17,Movie,Title 17,Director 19,India,2014,R,81 min
+s18,Movie,Title 18,,Canada,2008,TV-14,79 min
+s19,Movie,Title 19,,nan,2012,TV-14,70 min
+s20,Movie,Title 20,Director 72,United States,2014,R,139 min
+s21,Movie,Title 21,,United Kingdom,2009,TV-Y,98 min
+s22,Movie,Title 22,Director 20,India,2015,TV-14,67 min
+s23,Movie,Title 23,Director 81,nan,2006,TV-PG,89 min
+s24,Movie,Title 24,,Canada,2016,TV-PG,113 min
+s25,Movie,Title 25,,Canada,2022,TV-14,126 min
+s26,TV Show,Title 26,Director 40,India,2020,TV-Y,5 Seasons
+s27,Movie,Title 27,Director 24,India,2021,PG-13,176 min
+s28,Movie,Title 28,Director 81,United States,2006,R,109 min
+s29,Movie,Title 29,,United States,2013,TV-PG,67 min
+s30,Movie,Title 30,Director 43,France,2014,PG-13,60 min
+s31,Movie,Title 31,Director 31,Canada,2020,TV-14,121 min
+s32,Movie,Title 32,Director 54,nan,2006,PG-13,121 min
+s33,Movie,Title 33,,nan,2008,TV-MA,130 min
+s34,TV Show,Title 34,Director 59,United Kingdom,2018,TV-PG,3 Seasons
+s35,TV Show,Title 35,Director 13,South Korea,2015,TV-14,2 Seasons
+s36,TV Show,Title 36,Director 70,Spain,2007,R,3 Seasons
+s37,Movie,Title 37,Director 70,Canada,2017,TV-Y,145 min
+s38,Movie,Title 38,,United States,2022,TV-14,152 min
+s39,Movie,Title 39,Director 29,India,2017,R,78 min
+s40,Movie,Title 40,,United States,2019,TV-Y,174 min
+s41,Movie,Title 41,Director 35,nan,2006,TV-Y,177 min
+s42,Movie,Title 42,,Japan,2002,TV-14,94 min
+s43,Movie,Title 43,,United States,2017,PG-13,177 min
+s44,TV Show,Title 44,Director 60,Japan,2009,PG-13,3 Seasons
+s45,Movie,Title 45,Director 82,Japan,2006,TV-Y,159 min
+s46,Movie,Title 46,Director 94,India,2016,PG-13,66 min
+s47,Movie,Title 47,Director 40,United States,2013,TV-MA,171 min
+s48,Movie,Title 48,,Japan,2023,TV-Y,109 min
+s49,Movie,Title 49,Director 33,United Kingdom,2002,TV-Y,114 min
+s50,Movie,Title 50,Director 72,South Korea,2011,R,158 min
+s51,TV Show,Title 51,Director 34,United Kingdom,2012,PG-13,4 Seasons
+s52,TV Show,Title 52,Director 66,France,2001,TV-Y,2 Seasons
+s53,TV Show,Title 53,Director 83,United Kingdom,2002,TV-MA,2 Seasons
+s54,TV Show,Title 54,,United Kingdom,2004,R,5 Seasons
+s55,Movie,Title 55,Director 15,France,2010,TV-14,83 min
+s56,TV Show,Title 56,,India,2007,TV-Y,5 Seasons
+s57,Movie,Title 57,,United States,2022,TV-MA,127 min
+s58,Movie,Title 58,Director 59,United States,2022,TV-PG,136 min
+s59,Movie,Title 59,Director 49,South Korea,2011,TV-MA,71 min
+s60,Movie,Title 60,,Japan,2006,TV-MA,142 min
+s61,Movie,Title 61,,South Korea,2014,R,97 min
+s62,Movie,Title 62,Director 7,United States,2023,TV-14,121 min
+s63,TV Show,Title 63,,United States,2016,TV-PG,4 Seasons
+s64,Movie,Title 64,Director 22,United States,2003,PG-13,119 min
+s65,Movie,Title 65,Director 62,India,2021,PG-13,137 min
+s66,Movie,Title 66,Director 2,United Kingdom,2012,TV-MA,162 min
+s67,Movie,Title 67,,India,2017,R,176 min
+s68,TV Show,Title 68,Director 93,India,2000,R,1 Seasons
+s69,Movie,Title 69,Director 67,Spain,2015,PG-13,112 min
+s70,TV Show,Title 70,,United States,2012,TV-PG,4 Seasons
+s71,TV Show,Title 71,,United Kingdom,2009,TV-14,3 Seasons
+s72,Movie,Title 72,Director 78,South Korea,2011,TV-PG,91 min
+s73,Movie,Title 73,,India,2001,TV-Y,170 min
+s74,TV Show,Title 74,Director 86,Japan,2022,TV-Y,2 Seasons
+s75,TV Show,Title 75,Director 99,France,2002,TV-14,3 Seasons
+s76,TV Show,Title 76,Director 32,Spain,2009,PG-13,3 Seasons
+s77,TV Show,Title 77,Director 5,United States,2001,TV-14,3 Seasons
+s78,Movie,Title 78,Director 24,Spain,2022,R,170 min
+s79,Movie,Title 79,,India,2012,TV-Y,129 min
+s80,Movie,Title 80,,United States,2012,TV-MA,85 min
+s81,TV Show,Title 81,Director 70,India,2017,TV-MA,5 Seasons
+s82,Movie,Title 82,Director 61,nan,2002,PG-13,84 min
+s83,Movie,Title 83,,India,2006,R,87 min
+s84,Movie,Title 84,,United States,2013,TV-PG,72 min
+s85,Movie,Title 85,Director 4,Japan,2019,R,176 min
+s86,Movie,Title 86,Director 51,United States,2016,TV-MA,75 min
+s87,TV Show,Title 87,,United States,2020,TV-MA,2 Seasons
+s88,Movie,Title 88,,United States,2011,TV-Y,75 min
+s89,TV Show,Title 89,,United States,2015,R,1 Seasons
+s90,Movie,Title 90,Director 77,United States,2023,R,102 min
+s91,Movie,Title 91,Director 38,United States,2011,TV-MA,150 min
+s92,TV Show,Title 92,Director 51,Japan,2014,TV-PG,1 Seasons
+s93,TV Show,Title 93,,United States,2009,PG-13,5 Seasons
+s94,Movie,Title 94,,United States,2006,PG-13,99 min
+s95,TV Show,Title 95,,France,2019,R,1 Seasons
+s96,Movie,Title 96,Director 37,India,2004,PG-13,108 min
+s97,Movie,Title 97,Director 7,Japan,2000,TV-MA,172 min
+s98,Movie,Title 98,Director 74,United States,2016,TV-MA,178 min
+s99,Movie,Title 99,Director 6,United States,2002,R,76 min
+s100,Movie,Title 100,,United States,2012,R,63 min
+s101,Movie,Title 101,,United States,2013,TV-Y,178 min
+s102,Movie,Title 102,,United States,2023,R,70 min
+s103,Movie,Title 103,Director 66,United States,2017,TV-PG,174 min
+s104,Movie,Title 104,,United States,2003,PG-13,84 min
+s105,TV Show,Title 105,,United States,2017,R,2 Seasons
+s106,Movie,Title 106,,India,2004,TV-14,88 min
+s107,Movie,Title 107,Director 66,United States,2015,TV-Y,130 min
+s108,TV Show,Title 108,,India,2000,TV-14,2 Seasons
+s109,Movie,Title 109,Director 97,United Kingdom,2020,TV-MA,66 min
+s110,Movie,Title 110,,Japan,2013,PG-13,148 min
+s111,Movie,Title 111,Director 91,United States,2014,R,66 min
+s112,Movie,Title 112,,South Korea,2008,TV-14,89 min
+s113,TV Show,Title 113,,Japan,2014,PG-13,2 Seasons
+s114,TV Show,Title 114,Director 42,United States,2016,TV-MA,5 Seasons
+s115,Movie,Title 115,Director 96,France,2023,TV-PG,74 min
+s116,TV Show,Title 116,Director 79,Spain,2003,TV-Y,5 Seasons
+s117,TV Show,Title 117,Director 18,United States,2011,PG-13,1 Seasons
+s118,Movie,Title 118,Director 24,United States,2004,PG-13,162 min
+s119,TV Show,Title 119,Director 30,Canada,2004,TV-PG,5 Seasons
+s120,Movie,Title 120,Director 10,South Korea,2010,PG-13,70 min
+s121,TV Show,Title 121,Director 1,United States,2005,TV-MA,4 Seasons
+s122,TV Show,Title 122,,United States,2006,TV-MA,1 Seasons
+s123,Movie,Title 123,Director 2,India,2023,TV-PG,83 min
+s124,Movie,Title 124,,India,2013,TV-Y,171 min
+s125,Movie,Title 125,,Japan,2023,R,133 min
+s126,Movie,Title 126,Director 21,India,2010,TV-14,68 min
+s127,TV Show,Title 127,Director 19,India,2012,R,2 Seasons
+s128,TV Show,Title 128,,South Korea,2001,PG-13,1 Seasons
+s129,Movie,Title 129,Director 38,United States,2006,TV-14,117 min
+s130,Movie,Title 130,Director 95,United States,2019,TV-PG,64 min
+s131,Movie,Title 131,Director 83,South Korea,2003,TV-PG,68 min
+s132,Movie,Title 132,Director 78,France,2007,TV-Y,149 min
+s133,Movie,Title 133,Director 40,United Kingdom,2019,TV-14,166 min
+s134,Movie,Title 134,Director 70,United Kingdom,2021,TV-MA,102 min
+s135,TV Show,Title 135,Director 63,United States,2020,TV-14,4 Seasons
+s136,Movie,Title 136,,India,2018,PG-13,151 min
+s137,Movie,Title 137,Director 1,United Kingdom,2012,TV-MA,94 min
+s138,TV Show,Title 138,Director 44,United States,2013,TV-PG,4 Seasons
+s139,Movie,Title 139,,United States,2009,TV-14,139 min
+s140,TV Show,Title 140,,India,2010,R,4 Seasons
+s141,TV Show,Title 141,Director 80,United States,2001,TV-Y,1 Seasons
+s142,Movie,Title 142,,United States,2008,R,70 min
+s143,Movie,Title 143,Director 61,United States,2016,TV-Y,144 min
+s144,Movie,Title 144,,United States,2002,PG-13,91 min
+s145,Movie,Title 145,Director 85,United States,2023,R,60 min
+s146,Movie,Title 146,Director 44,France,2005,TV-14,132 min
+s147,Movie,Title 147,,United Kingdom,2004,TV-14,120 min
+s148,Movie,Title 148,Director 52,Japan,2004,R,90 min
+s149,Movie,Title 149,Director 87,South Korea,2021,TV-14,116 min
+s150,Movie,Title 150,Director 1,India,2014,PG-13,90 min
+s151,TV Show,Title 151,,United States,2022,TV-MA,2 Seasons
+s152,Movie,Title 152,Director 69,United Kingdom,2016,PG-13,77 min
+s153,Movie,Title 153,Director 37,United Kingdom,2008,TV-Y,96 min
+s154,Movie,Title 154,Director 86,South Korea,2002,PG-13,70 min
+s155,TV Show,Title 155,Director 63,India,2019,TV-Y,1 Seasons
+s156,Movie,Title 156,Director 31,United States,2016,TV-14,147 min
+s157,Movie,Title 157,,United States,2009,TV-MA,155 min
+s158,TV Show,Title 158,Director 4,India,2002,TV-14,1 Seasons
+s159,Movie,Title 159,Director 29,Japan,2017,TV-PG,158 min
+s160,TV Show,Title 160,,United Kingdom,2017,TV-14,1 Seasons
+s161,Movie,Title 161,Director 57,India,2016,TV-Y,70 min
+s162,Movie,Title 162,Director 40,nan,2023,TV-14,157 min
+s163,Movie,Title 163,Director 95,Japan,2002,TV-14,126 min
+s164,Movie,Title 164,Director 76,United States,2002,TV-MA,163 min
+s165,Movie,Title 165,Director 7,United States,2005,TV-14,131 min
+s166,TV Show,Title 166,Director 59,United States,2012,TV-MA,2 Seasons
+s167,Movie,Title 167,Director 37,United States,2023,R,77 min
+s168,Movie,Title 168,Director 35,United States,2014,TV-PG,154 min
+s169,Movie,Title 169,,United States,2008,TV-MA,98 min
+s170,Movie,Title 170,Director 48,United States,2003,TV-Y,115 min
+s171,Movie,Title 171,,United States,2013,R,77 min
+s172,Movie,Title 172,Director 38,France,2004,TV-MA,110 min
+s173,Movie,Title 173,,United States,2001,TV-MA,114 min
+s174,Movie,Title 174,Director 15,United Kingdom,2010,TV-PG,153 min
+s175,Movie,Title 175,Director 45,India,2008,TV-Y,138 min
+s176,Movie,Title 176,Director 99,nan,2023,PG-13,164 min
+s177,Movie,Title 177,Director 97,United States,2002,PG-13,111 min
+s178,Movie,Title 178,,India,2008,TV-MA,106 min
+s179,TV Show,Title 179,,nan,2002,TV-14,5 Seasons
+s180,Movie,Title 180,Director 49,France,2001,TV-Y,117 min
+s181,Movie,Title 181,Director 92,Canada,2011,R,168 min
+s182,Movie,Title 182,Director 69,United States,2009,TV-14,177 min
+s183,TV Show,Title 183,Director 56,United States,2008,TV-14,1 Seasons
+s184,TV Show,Title 184,,Japan,2014,TV-Y,5 Seasons
+s185,Movie,Title 185,Director 83,Spain,2007,TV-MA,142 min
+s186,Movie,Title 186,Director 12,United Kingdom,2004,TV-MA,95 min
+s187,TV Show,Title 187,,United Kingdom,2010,TV-MA,4 Seasons
+s188,Movie,Title 188,Director 71,United States,2001,TV-MA,112 min
+s189,Movie,Title 189,Director 95,South Korea,2023,PG-13,147 min
+s190,Movie,Title 190,Director 94,United States,2014,TV-MA,100 min
+s191,Movie,Title 191,Director 23,United States,2005,PG-13,127 min
+s192,TV Show,Title 192,Director 14,India,2007,PG-13,1 Seasons
+s193,TV Show,Title 193,Director 21,United Kingdom,2004,TV-MA,2 Seasons
+s194,Movie,Title 194,,United States,2015,TV-PG,180 min
+s195,Movie,Title 195,,United States,2017,R,141 min
+s196,Movie,Title 196,,Japan,2005,TV-14,150 min
+s197,TV Show,Title 197,Director 10,United States,2004,PG-13,2 Seasons
+s198,TV Show,Title 198,Director 40,United Kingdom,2015,TV-Y,4 Seasons
+s199,TV Show,Title 199,Director 13,United States,2012,TV-Y,2 Seasons
+s200,TV Show,Title 200,Director 41,India,2004,R,4 Seasons
+s201,Movie,Title 201,Director 28,United Kingdom,2012,TV-Y,91 min
+s202,Movie,Title 202,Director 86,United States,2016,TV-PG,103 min
+s203,Movie,Title 203,Director 63,United States,2017,TV-Y,115 min
+s204,TV Show,Title 204,,United States,2007,TV-14,2 Seasons
+s205,Movie,Title 205,Director 80,United States,2012,TV-14,83 min
+s206,Movie,Title 206,Director 3,nan,2018,PG-13,110 min
+s207,Movie,Title 207,Director 46,United States,2002,TV-MA,94 min
+s208,Movie,Title 208,,Canada,2023,TV-PG,63 min
+s209,Movie,Title 209,Director 23,United States,2007,PG-13,170 min
+s210,Movie,Title 210,,Japan,2001,TV-PG,128 min
+s211,Movie,Title 211,,South Korea,2007,TV-MA,106 min
+s212,Movie,Title 212,Director 68,United Kingdom,2012,TV-Y,71 min
+s213,Movie,Title 213,Director 67,India,2012,TV-Y,174 min
+s214,Movie,Title 214,Director 95,India,2000,TV-MA,114 min
+s215,TV Show,Title 215,,United States,2005,PG-13,4 Seasons
+s216,Movie,Title 216,Director 72,Spain,2023,TV-MA,65 min
+s217,Movie,Title 217,,Canada,2018,R,171 min
+s218,TV Show,Title 218,Director 95,nan,2015,TV-14,3 Seasons
+s219,Movie,Title 219,Director 88,United States,2007,PG-13,169 min
+s220,TV Show,Title 220,Director 66,South Korea,2000,TV-PG,3 Seasons
+s221,Movie,Title 221,Director 32,Spain,2015,R,165 min
+s222,Movie,Title 222,Director 29,United States,2008,PG-13,116 min
+s223,Movie,Title 223,Director 84,United States,2012,TV-MA,114 min
+s224,Movie,Title 224,,South Korea,2010,TV-MA,131 min
+s225,Movie,Title 225,Director 76,United Kingdom,2012,TV-MA,150 min
+s226,Movie,Title 226,Director 13,Canada,2020,TV-MA,127 min
+s227,TV Show,Title 227,,United States,2009,TV-PG,1 Seasons
+s228,Movie,Title 228,,South Korea,2003,R,83 min
+s229,TV Show,Title 229,,United States,2005,TV-Y,1 Seasons
+s230,Movie,Title 230,,United States,2006,TV-14,104 min
+s231,TV Show,Title 231,Director 10,United States,2004,TV-PG,2 Seasons
+s232,Movie,Title 232,,Canada,2010,TV-PG,161 min
+s233,Movie,Title 233,Director 15,Japan,2012,TV-Y,70 min
+s234,Movie,Title 234,Director 40,United Kingdom,2018,TV-Y,88 min
+s235,Movie,Title 235,,India,2022,TV-14,121 min
+s236,TV Show,Title 236,,France,2009,TV-14,1 Seasons
+s237,Movie,Title 237,Director 29,India,2009,TV-Y,136 min
+s238,Movie,Title 238,Director 2,Canada,2010,TV-MA,127 min
+s239,Movie,Title 239,,India,2020,TV-PG,80 min
+s240,Movie,Title 240,Director 37,India,2006,PG-13,60 min
+s241,TV Show,Title 241,Director 64,India,2017,TV-14,4 Seasons
+s242,TV Show,Title 242,Director 29,United States,2003,TV-14,3 Seasons
+s243,TV Show,Title 243,Director 57,South Korea,2001,TV-Y,3 Seasons
+s244,Movie,Title 244,Director 27,United Kingdom,2013,R,153 min
+s245,Movie,Title 245,,United States,2012,PG-13,80 min
+s246,TV Show,Title 246,Director 8,France,2011,PG-13,4 Seasons
+s247,Movie,Title 247,Director 52,India,2006,TV-14,161 min
+s248,TV Show,Title 248,Director 8,United Kingdom,2001,TV-MA,2 Seasons
+s249,TV Show,Title 249,Director 87,Spain,2012,R,3 Seasons
+s250,TV Show,Title 250,Director 49,Japan,2013,PG-13,2 Seasons
+s251,Movie,Title 251,,United States,2016,TV-14,123 min
+s252,Movie,Title 252,Director 49,Spain,2008,PG-13,80 min
+s253,TV Show,Title 253,Director 94,Japan,2016,R,5 Seasons
+s254,Movie,Title 254,,United States,2007,R,157 min
+s255,Movie,Title 255,Director 41,United States,2001,TV-PG,151 min
+s256,Movie,Title 256,Director 78,South Korea,2023,TV-Y,138 min
+s257,TV Show,Title 257,,Japan,2012,TV-Y,1 Seasons
+s258,Movie,Title 258,Director 98,United Kingdom,2002,TV-14,108 min
+s259,Movie,Title 259,,France,2015,R,132 min
+s260,Movie,Title 260,,South Korea,2005,TV-PG,126 min
+s261,Movie,Title 261,Director 6,United States,2018,TV-PG,161 min
+s262,TV Show,Title 262,Director 72,United States,2006,PG-13,1 Seasons
+s263,Movie,Title 263,Director 15,United States,2009,PG-13,172 min
+s264,Movie,Title 264,,South Korea,2008,TV-PG,120 min
+s265,TV Show,Title 265,,United States,2001,PG-13,2 Seasons
+s266,TV Show,Title 266,Director 52,United Kingdom,2014,R,2 Seasons
+s267,Movie,Title 267,Director 99,South Korea,2004,TV-MA,128 min
+s268,TV Show,Title 268,Director 41,France,2021,R,5 Seasons
+s269,Movie,Title 269,Director 82,United States,2003,TV-PG,108 min
+s270,Movie,Title 270,Director 66,Canada,2019,TV-PG,63 min
+s271,TV Show,Title 271,Director 38,United States,2003,R,3 Seasons
+s272,TV Show,Title 272,Director 7,Canada,2017,PG-13,3 Seasons
+s273,TV Show,Title 273,Director 91,United States,2003,PG-13,1 Seasons
+s274,TV Show,Title 274,Director 41,India,2016,TV-Y,5 Seasons
+s275,Movie,Title 275,Director 98,South Korea,2011,TV-PG,70 min
+s276,Movie,Title 276,Director 54,United States,2021,TV-14,104 min
+s277,TV Show,Title 277,Director 6,United States,2016,TV-Y,5 Seasons
+s278,Movie,Title 278,,South Korea,2009,PG-13,178 min
+s279,TV Show,Title 279,,South Korea,2021,R,1 Seasons
+s280,TV Show,Title 280,Director 98,Japan,2000,PG-13,5 Seasons
+s281,TV Show,Title 281,Director 14,Japan,2021,R,5 Seasons
+s282,Movie,Title 282,Director 23,United Kingdom,2023,TV-Y,116 min
+s283,Movie,Title 283,Director 13,United States,2017,TV-PG,164 min
+s284,Movie,Title 284,Director 10,United States,2017,PG-13,81 min
+s285,Movie,Title 285,Director 89,United States,2013,R,85 min
+s286,Movie,Title 286,,Spain,2014,TV-PG,91 min
+s287,Movie,Title 287,,United Kingdom,2011,TV-14,91 min
+s288,Movie,Title 288,Director 62,India,2003,R,97 min
+s289,Movie,Title 289,Director 5,India,2002,TV-Y,121 min
+s290,Movie,Title 290,,Spain,2019,TV-14,145 min
+s291,Movie,Title 291,,United States,2011,TV-14,120 min
+s292,Movie,Title 292,Director 84,United Kingdom,2006,TV-MA,136 min
+s293,TV Show,Title 293,Director 77,United Kingdom,2010,PG-13,4 Seasons
+s294,Movie,Title 294,,Japan,2000,R,117 min
+s295,Movie,Title 295,,United States,2005,TV-14,112 min
+s296,Movie,Title 296,Director 4,France,2014,TV-MA,152 min
+s297,TV Show,Title 297,Director 8,Spain,2014,TV-Y,3 Seasons
+s298,Movie,Title 298,Director 52,United Kingdom,2018,TV-PG,167 min
+s299,Movie,Title 299,,Japan,2010,R,165 min
+s300,Movie,Title 300,,Spain,2022,TV-14,136 min
+s301,Movie,Title 301,Director 96,South Korea,2001,PG-13,145 min
+s302,Movie,Title 302,Director 15,United States,2013,TV-MA,110 min
+s303,Movie,Title 303,,United Kingdom,2001,TV-14,71 min
+s304,Movie,Title 304,,Japan,2003,PG-13,172 min
+s305,TV Show,Title 305,Director 84,India,2016,TV-14,3 Seasons
+s306,TV Show,Title 306,Director 42,South Korea,2002,R,1 Seasons
+s307,Movie,Title 307,,Spain,2012,R,75 min
+s308,Movie,Title 308,Director 39,Spain,2008,R,111 min
+s309,TV Show,Title 309,Director 8,India,2006,TV-Y,4 Seasons
+s310,Movie,Title 310,Director 19,United States,2014,TV-Y,96 min
+s311,Movie,Title 311,Director 84,nan,2022,TV-MA,114 min
+s312,Movie,Title 312,Director 17,Canada,2010,R,118 min
+s313,Movie,Title 313,Director 12,United States,2019,PG-13,147 min
+s314,TV Show,Title 314,,Spain,2001,TV-14,1 Seasons
+s315,TV Show,Title 315,Director 4,France,2014,TV-PG,2 Seasons
+s316,Movie,Title 316,,United Kingdom,2013,PG-13,163 min
+s317,Movie,Title 317,Director 78,United Kingdom,2019,TV-Y,160 min
+s318,Movie,Title 318,Director 51,India,2021,TV-Y,94 min
+s319,Movie,Title 319,Director 44,United States,2010,PG-13,141 min
+s320,Movie,Title 320,Director 45,United States,2002,TV-Y,154 min
+s321,Movie,Title 321,Director 100,Canada,2016,R,153 min
+s322,TV Show,Title 322,Director 60,United States,2011,TV-MA,4 Seasons
+s323,Movie,Title 323,Director 57,United States,2023,TV-14,107 min
+s324,Movie,Title 324,Director 69,India,2020,TV-MA,97 min
+s325,TV Show,Title 325,Director 40,United Kingdom,2014,TV-14,2 Seasons
+s326,TV Show,Title 326,Director 2,Spain,2015,TV-14,1 Seasons
+s327,Movie,Title 327,Director 20,United States,2004,TV-MA,102 min
+s328,Movie,Title 328,,United States,2019,PG-13,79 min
+s329,Movie,Title 329,Director 64,South Korea,2005,TV-14,92 min
+s330,Movie,Title 330,Director 7,India,2018,TV-MA,133 min
+s331,Movie,Title 331,Director 50,United States,2004,TV-14,112 min
+s332,TV Show,Title 332,Director 11,India,2002,TV-PG,1 Seasons
+s333,Movie,Title 333,Director 40,United States,2000,PG-13,101 min
+s334,Movie,Title 334,Director 47,United States,2005,R,76 min
+s335,Movie,Title 335,Director 1,India,2014,TV-14,144 min
+s336,Movie,Title 336,,India,2001,TV-PG,93 min
+s337,TV Show,Title 337,Director 30,Spain,2002,R,5 Seasons
+s338,TV Show,Title 338,,India,2016,R,5 Seasons
+s339,Movie,Title 339,Director 77,United Kingdom,2023,TV-14,118 min
+s340,Movie,Title 340,Director 74,Japan,2011,TV-MA,72 min
+s341,Movie,Title 341,Director 36,United States,2017,TV-14,168 min
+s342,Movie,Title 342,Director 19,Japan,2014,TV-PG,128 min
+s343,Movie,Title 343,Director 100,United States,2011,R,103 min
+s344,Movie,Title 344,Director 22,nan,2015,TV-14,151 min
+s345,Movie,Title 345,Director 17,United States,2007,TV-MA,128 min
+s346,Movie,Title 346,,India,2013,TV-14,102 min
+s347,Movie,Title 347,Director 19,United States,2016,PG-13,117 min
+s348,Movie,Title 348,Director 96,nan,2020,TV-MA,159 min
+s349,Movie,Title 349,Director 30,United Kingdom,2007,TV-PG,168 min
+s350,Movie,Title 350,Director 89,United Kingdom,2014,R,65 min
+s351,Movie,Title 351,,United States,2013,TV-14,106 min
+s352,TV Show,Title 352,Director 24,South Korea,2017,TV-MA,5 Seasons
+s353,Movie,Title 353,Director 65,United States,2019,PG-13,140 min
+s354,Movie,Title 354,,France,2006,TV-MA,61 min
+s355,Movie,Title 355,Director 20,United States,2002,TV-Y,95 min
+s356,Movie,Title 356,Director 41,United States,2011,PG-13,118 min
+s357,Movie,Title 357,Director 30,United States,2020,TV-PG,94 min
+s358,Movie,Title 358,Director 82,India,2023,R,140 min
+s359,TV Show,Title 359,Director 23,United Kingdom,2002,TV-PG,5 Seasons
+s360,Movie,Title 360,Director 68,United States,2019,TV-14,63 min
+s361,Movie,Title 361,,South Korea,2013,TV-MA,155 min
+s362,Movie,Title 362,,India,2014,TV-Y,142 min
+s363,Movie,Title 363,,United Kingdom,2013,PG-13,79 min
+s364,Movie,Title 364,Director 74,India,2006,PG-13,134 min
+s365,TV Show,Title 365,Director 39,India,2016,TV-MA,3 Seasons
+s366,Movie,Title 366,Director 18,United Kingdom,2011,TV-Y,149 min
+s367,TV Show,Title 367,Director 99,United States,2019,TV-MA,3 Seasons
+s368,TV Show,Title 368,Director 2,United States,2003,TV-14,2 Seasons
+s369,Movie,Title 369,,France,2008,TV-PG,155 min
+s370,Movie,Title 370,Director 97,Spain,2005,PG-13,97 min
+s371,Movie,Title 371,Director 48,India,2015,TV-14,109 min
+s372,Movie,Title 372,Director 17,United States,2021,TV-PG,68 min
+s373,Movie,Title 373,Director 23,Japan,2021,TV-14,89 min
+s374,Movie,Title 374,,India,2020,TV-Y,163 min
+s375,Movie,Title 375,Director 60,United States,2020,PG-13,150 min
+s376,Movie,Title 376,Director 43,United States,2001,TV-MA,62 min
+s377,TV Show,Title 377,Director 5,South Korea,2023,TV-MA,1 Seasons
+s378,Movie,Title 378,,Japan,2007,TV-PG,165 min
+s379,TV Show,Title 379,Director 47,United States,2010,R,1 Seasons
+s380,Movie,Title 380,Director 8,United States,2012,TV-Y,84 min
+s381,Movie,Title 381,Director 21,United States,2016,TV-PG,134 min
+s382,Movie,Title 382,Director 37,Japan,2007,R,173 min
+s383,Movie,Title 383,,United States,2020,TV-14,159 min
+s384,TV Show,Title 384,,United States,2017,TV-Y,3 Seasons
+s385,TV Show,Title 385,Director 75,South Korea,2017,TV-14,3 Seasons
+s386,TV Show,Title 386,Director 77,United States,2013,PG-13,2 Seasons
+s387,Movie,Title 387,,Japan,2014,TV-Y,70 min
+s388,Movie,Title 388,Director 89,United States,2005,R,94 min
+s389,TV Show,Title 389,Director 71,United States,2010,PG-13,5 Seasons
+s390,TV Show,Title 390,Director 87,United States,2012,TV-MA,3 Seasons
+s391,TV Show,Title 391,,South Korea,2000,R,5 Seasons
+s392,Movie,Title 392,Director 72,France,2005,TV-PG,98 min
+s393,Movie,Title 393,Director 12,Canada,2008,TV-MA,77 min
+s394,TV Show,Title 394,Director 7,India,2007,TV-MA,1 Seasons
+s395,Movie,Title 395,Director 55,Japan,2010,TV-PG,151 min
+s396,TV Show,Title 396,,United States,2021,TV-Y,1 Seasons
+s397,TV Show,Title 397,Director 64,United States,2018,TV-MA,5 Seasons
+s398,Movie,Title 398,,France,2023,R,77 min
+s399,TV Show,Title 399,Director 13,United States,2008,PG-13,3 Seasons
+s400,TV Show,Title 400,Director 100,United States,2016,TV-MA,4 Seasons
+s401,Movie,Title 401,Director 98,United States,2011,R,152 min
+s402,TV Show,Title 402,,United States,2013,TV-14,4 Seasons
+s403,Movie,Title 403,Director 56,United States,2014,R,76 min
+s404,TV Show,Title 404,Director 99,United Kingdom,2015,PG-13,2 Seasons
+s405,Movie,Title 405,,India,2021,R,119 min
+s406,TV Show,Title 406,Director 71,France,2021,TV-PG,1 Seasons
+s407,Movie,Title 407,Director 44,Canada,2019,PG-13,150 min
+s408,Movie,Title 408,,United States,2000,TV-Y,113 min
+s409,TV Show,Title 409,,United States,2009,TV-14,5 Seasons
+s410,Movie,Title 410,,India,2007,TV-PG,113 min
+s411,Movie,Title 411,Director 35,United Kingdom,2017,TV-Y,85 min
+s412,TV Show,Title 412,Director 32,United States,2000,R,1 Seasons
+s413,TV Show,Title 413,Director 27,Japan,2001,PG-13,4 Seasons
+s414,Movie,Title 414,,India,2000,TV-14,173 min
+s415,Movie,Title 415,Director 94,United Kingdom,2000,TV-PG,94 min
+s416,Movie,Title 416,Director 6,India,2008,TV-Y,66 min
+s417,Movie,Title 417,Director 40,United States,2012,TV-Y,134 min
+s418,Movie,Title 418,Director 74,Spain,2000,TV-14,153 min
+s419,Movie,Title 419,Director 17,South Korea,2012,R,67 min
+s420,TV Show,Title 420,,United States,2019,TV-14,1 Seasons
+s421,TV Show,Title 421,Director 8,France,2021,TV-Y,4 Seasons
+s422,TV Show,Title 422,Director 7,India,2006,TV-MA,3 Seasons
+s423,Movie,Title 423,Director 5,France,2001,TV-PG,76 min
+s424,Movie,Title 424,,South Korea,2005,TV-14,106 min
+s425,Movie,Title 425,,India,2006,TV-Y,115 min
+s426,Movie,Title 426,Director 65,United States,2013,R,157 min
+s427,Movie,Title 427,Director 20,United States,2017,TV-Y,149 min
+s428,TV Show,Title 428,Director 41,United Kingdom,2014,R,2 Seasons
+s429,Movie,Title 429,Director 91,Japan,2001,TV-14,140 min
+s430,Movie,Title 430,,United States,2009,R,115 min
+s431,Movie,Title 431,Director 47,United States,2022,PG-13,97 min
+s432,TV Show,Title 432,Director 48,Canada,2011,PG-13,2 Seasons
+s433,Movie,Title 433,,nan,2016,PG-13,106 min
+s434,Movie,Title 434,,United Kingdom,2007,TV-MA,68 min
+s435,Movie,Title 435,Director 47,United States,2010,TV-14,148 min
+s436,TV Show,Title 436,Director 95,United States,2002,TV-Y,3 Seasons
+s437,Movie,Title 437,Director 48,United States,2005,TV-Y,102 min
+s438,TV Show,Title 438,Director 25,Spain,2008,TV-MA,1 Seasons
+s439,TV Show,Title 439,Director 91,United States,2005,R,5 Seasons
+s440,Movie,Title 440,Director 13,United Kingdom,2008,TV-MA,87 min
+s441,Movie,Title 441,,United States,2006,R,146 min
+s442,TV Show,Title 442,,United Kingdom,2008,R,3 Seasons
+s443,Movie,Title 443,Director 97,Japan,2017,TV-PG,102 min
+s444,Movie,Title 444,,Canada,2011,TV-Y,172 min
+s445,TV Show,Title 445,Director 48,United States,2007,PG-13,1 Seasons
+s446,TV Show,Title 446,Director 42,United States,2007,R,3 Seasons
+s447,TV Show,Title 447,Director 73,United States,2017,TV-PG,2 Seasons
+s448,TV Show,Title 448,Director 61,Spain,2019,TV-Y,2 Seasons
+s449,Movie,Title 449,Director 51,France,2014,PG-13,177 min
+s450,Movie,Title 450,,United Kingdom,2006,R,176 min
+s451,TV Show,Title 451,,Japan,2010,R,4 Seasons
+s452,Movie,Title 452,Director 93,Japan,2019,TV-MA,85 min
+s453,Movie,Title 453,Director 85,United States,2015,TV-MA,83 min
+s454,TV Show,Title 454,,Spain,2003,TV-Y,4 Seasons
+s455,Movie,Title 455,Director 24,India,2005,PG-13,73 min
+s456,Movie,Title 456,Director 38,India,2021,R,162 min
+s457,Movie,Title 457,Director 85,United Kingdom,2002,TV-Y,180 min
+s458,Movie,Title 458,Director 89,United States,2008,TV-Y,144 min
+s459,Movie,Title 459,Director 64,United States,2009,TV-14,149 min
+s460,Movie,Title 460,,South Korea,2013,TV-MA,162 min
+s461,Movie,Title 461,Director 46,United States,2010,PG-13,133 min
+s462,Movie,Title 462,,Japan,2017,R,176 min
+s463,TV Show,Title 463,Director 86,United States,2021,TV-Y,5 Seasons
+s464,Movie,Title 464,Director 9,India,2011,R,138 min
+s465,TV Show,Title 465,,United States,2022,TV-14,1 Seasons
+s466,Movie,Title 466,Director 10,India,2011,PG-13,113 min
+s467,Movie,Title 467,Director 46,South Korea,2012,TV-Y,85 min
+s468,TV Show,Title 468,Director 95,United States,2012,R,2 Seasons
+s469,Movie,Title 469,,United Kingdom,2018,TV-MA,127 min
+s470,TV Show,Title 470,Director 14,India,2018,TV-14,4 Seasons
+s471,Movie,Title 471,Director 73,Japan,2022,PG-13,98 min
+s472,TV Show,Title 472,Director 10,Spain,2013,TV-14,5 Seasons
+s473,Movie,Title 473,Director 88,South Korea,2003,TV-MA,114 min
+s474,TV Show,Title 474,Director 78,United States,2012,PG-13,1 Seasons
+s475,Movie,Title 475,Director 81,United States,2007,TV-14,161 min
+s476,TV Show,Title 476,Director 6,United States,2022,TV-PG,4 Seasons
+s477,Movie,Title 477,Director 70,United Kingdom,2020,TV-MA,140 min
+s478,Movie,Title 478,Director 91,United States,2022,TV-MA,161 min
+s479,TV Show,Title 479,,India,2018,TV-MA,3 Seasons
+s480,Movie,Title 480,,United Kingdom,2011,TV-PG,115 min
+s481,Movie,Title 481,Director 63,United States,2017,TV-PG,145 min
+s482,Movie,Title 482,,South Korea,2005,R,132 min
+s483,Movie,Title 483,,United States,2017,TV-Y,136 min
+s484,Movie,Title 484,Director 97,United States,2018,TV-14,135 min
+s485,Movie,Title 485,,South Korea,2021,R,154 min
+s486,TV Show,Title 486,Director 93,India,2004,TV-14,5 Seasons
+s487,Movie,Title 487,Director 77,Japan,2023,TV-Y,135 min
+s488,Movie,Title 488,Director 17,India,2008,TV-PG,115 min
+s489,TV Show,Title 489,Director 62,United States,2002,TV-Y,4 Seasons
+s490,TV Show,Title 490,Director 89,Canada,2009,TV-PG,1 Seasons
+s491,Movie,Title 491,Director 81,South Korea,2018,TV-Y,108 min
+s492,Movie,Title 492,,Japan,2002,R,66 min
+s493,Movie,Title 493,,United States,2021,PG-13,136 min
+s494,Movie,Title 494,Director 75,United Kingdom,2014,R,94 min
+s495,Movie,Title 495,Director 64,India,2000,TV-14,149 min
+s496,Movie,Title 496,Director 60,United States,2006,R,161 min
+s497,Movie,Title 497,,Spain,2011,TV-MA,141 min
+s498,Movie,Title 498,Director 65,United States,2016,TV-14,116 min
+s499,TV Show,Title 499,Director 55,nan,2020,TV-Y,1 Seasons
+s500,TV Show,Title 500,,India,2023,TV-14,2 Seasons
+s11,Movie,Title 11,Director 84,Japan,2021,TV-PG,107 min
+s21,Movie,Title 21,,United Kingdom,2009,TV-Y,98 min
+s31,Movie,Title 31,Director 31,Canada,2020,TV-14,121 min
