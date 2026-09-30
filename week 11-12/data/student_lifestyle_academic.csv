@@ -1,0 +1,1001 @@
+study_hours_weekly,attendance_rate,sleep_hours_daily,screen_time_daily,extracurricular_hours,stress_level,prior_gpa,assignment_completion_rate,academic_cohort
+20.4,90.2,5.5,3.4,4.7,7.1,2.85,78.9,Balanced Mainstream
+22.9,78.7,6.8,3.8,4.3,6.1,3.06,80.3,Balanced Mainstream
+18.9,88.5,6.3,4.9,10.4,3.3,3.57,83.8,Balanced Mainstream
+19.9,87.1,6.6,5.6,4.8,7.4,3.14,83.5,Balanced Mainstream
+19.6,76.3,6.6,3.7,2.8,6.3,2.88,73.5,Balanced Mainstream
+17.8,84.7,8.2,3.8,6.3,7.0,3.03,88.3,Balanced Mainstream
+21.0,71.2,6.2,4.1,3.8,7.2,3.39,68.7,Balanced Mainstream
+18.0,76.8,5.5,5.3,2.0,3.9,3.2,70.2,Balanced Mainstream
+7.2,48.0,5.4,8.3,4.2,10.0,2.23,59.9,At-Risk / Distracted
+25.3,98.5,7.7,1.5,10.2,2.4,3.84,95.0,High Achievers
+10.8,69.7,6.5,5.5,4.7,7.4,1.85,53.4,At-Risk / Distracted
+28.3,95.5,6.6,2.1,19.0,1.6,3.72,89.4,High Achievers
+17.0,72.8,6.7,5.4,8.7,5.2,3.14,74.8,Balanced Mainstream
+13.7,41.0,3.5,8.6,8.0,9.5,2.25,50.4,At-Risk / Distracted
+8.9,64.0,3.5,6.7,2.9,6.7,2.17,68.5,At-Risk / Distracted
+9.6,48.5,5.4,5.4,2.0,9.6,1.88,50.6,At-Risk / Distracted
+28.4,93.4,9.5,2.6,14.2,1.8,3.8,91.6,High Achievers
+9.1,59.0,4.4,7.0,3.7,7.4,2.5,54.5,At-Risk / Distracted
+10.1,66.2,6.1,7.0,3.6,8.2,2.9,61.4,At-Risk / Distracted
+14.0,87.4,9.0,3.9,2.6,5.5,3.35,73.0,Balanced Mainstream
+20.7,83.5,7.0,4.9,12.5,6.2,3.16,75.5,Balanced Mainstream
+29.0,98.6,8.0,3.3,16.4,5.4,3.8,91.2,High Achievers
+25.0,84.5,5.8,4.8,6.4,6.1,2.83,67.5,Balanced Mainstream
+20.1,83.3,9.0,5.9,5.5,6.0,3.2,77.5,Balanced Mainstream
+30.0,93.1,7.4,2.3,16.0,4.8,3.56,93.9,High Achievers
+30.2,92.2,7.7,3.3,12.8,1.6,4.0,97.0,High Achievers
+26.5,89.6,8.3,3.2,15.0,5.1,3.75,94.3,High Achievers
+7.4,58.2,6.0,5.5,3.0,9.4,2.9,57.0,At-Risk / Distracted
+7.1,57.1,4.5,7.7,1.7,8.1,2.23,58.5,At-Risk / Distracted
+7.8,56.3,6.3,8.3,3.3,7.7,1.76,62.3,At-Risk / Distracted
+18.9,67.5,6.7,4.3,8.5,6.1,3.12,82.9,Balanced Mainstream
+23.7,91.8,8.3,3.3,12.5,2.2,3.81,97.4,High Achievers
+16.5,83.6,7.4,3.8,11.2,5.4,2.85,81.5,Balanced Mainstream
+16.5,87.2,6.6,3.2,10.8,6.1,3.22,73.2,Balanced Mainstream
+21.2,75.7,6.9,4.1,7.6,6.7,3.23,77.8,Balanced Mainstream
+28.2,88.5,7.5,3.2,15.6,4.1,3.78,97.3,High Achievers
+14.1,72.5,7.3,4.8,10.8,4.7,3.26,68.9,Balanced Mainstream
+19.0,80.2,7.1,3.7,7.9,4.9,3.36,81.3,Balanced Mainstream
+6.8,53.5,4.9,7.3,5.0,8.8,2.12,44.9,At-Risk / Distracted
+31.4,88.7,7.4,2.9,11.8,3.2,3.84,97.0,High Achievers
+21.4,81.8,5.9,2.5,8.8,6.5,3.19,70.6,Balanced Mainstream
+29.0,85.1,7.8,3.9,14.8,4.2,3.76,96.5,High Achievers
+14.6,73.4,9.0,3.7,10.4,4.8,3.14,75.6,Balanced Mainstream
+10.3,45.4,4.7,8.8,3.5,8.1,2.82,55.7,At-Risk / Distracted
+30.2,93.5,6.8,3.6,13.8,3.5,3.92,95.2,High Achievers
+25.9,95.1,7.7,2.4,13.3,3.5,3.98,90.4,High Achievers
+9.8,55.6,6.1,5.0,6.2,6.4,1.96,52.1,At-Risk / Distracted
+21.3,77.8,6.3,4.7,3.9,7.0,3.05,76.7,Balanced Mainstream
+18.2,92.0,7.3,5.3,7.0,5.3,3.36,78.8,Balanced Mainstream
+5.1,56.4,4.9,5.1,0.0,6.5,2.54,54.3,At-Risk / Distracted
+15.9,77.1,6.7,6.5,9.0,7.5,2.84,80.2,Balanced Mainstream
+5.4,60.6,5.6,5.2,6.1,8.6,2.39,58.6,At-Risk / Distracted
+27.8,100.0,6.3,4.3,8.3,4.4,3.78,90.3,High Achievers
+18.3,80.4,6.2,6.1,3.8,4.0,3.3,81.1,Balanced Mainstream
+23.0,100.0,8.6,1.9,13.2,2.3,3.7,94.1,High Achievers
+25.9,92.0,6.1,2.1,10.3,3.7,3.91,96.5,High Achievers
+20.7,80.9,6.7,4.8,9.0,6.8,2.66,75.1,Balanced Mainstream
+26.4,91.1,8.0,2.3,8.3,2.1,3.73,93.1,High Achievers
+21.5,94.2,8.6,3.4,15.2,3.2,3.84,97.7,High Achievers
+10.4,69.9,5.1,9.6,5.9,8.8,1.87,60.4,At-Risk / Distracted
+31.1,90.9,7.4,2.5,18.2,3.1,3.9,91.8,High Achievers
+31.6,91.9,9.5,2.4,15.7,3.2,3.95,90.6,High Achievers
+15.5,79.4,7.9,2.5,9.7,4.8,2.72,82.1,Balanced Mainstream
+38.0,88.7,6.8,4.0,11.2,2.3,3.94,98.1,High Achievers
+18.7,73.8,7.8,3.5,7.4,5.9,2.94,70.3,Balanced Mainstream
+16.8,70.0,8.2,4.9,9.6,5.3,3.06,80.0,Balanced Mainstream
+20.7,90.0,7.4,6.1,5.3,5.5,3.42,88.8,Balanced Mainstream
+11.1,58.0,6.3,8.5,7.0,9.9,2.31,62.7,At-Risk / Distracted
+29.3,92.1,8.5,2.6,15.3,4.5,3.63,98.5,High Achievers
+16.0,82.5,5.9,5.3,10.0,5.4,3.01,81.0,Balanced Mainstream
+28.6,91.4,8.9,3.0,12.0,5.4,3.63,96.2,High Achievers
+18.2,81.3,6.5,2.5,6.4,5.3,2.92,69.7,Balanced Mainstream
+14.9,85.1,8.1,4.7,9.2,6.2,2.98,82.5,Balanced Mainstream
+13.5,65.1,7.5,4.8,8.4,4.7,3.57,82.1,Balanced Mainstream
+25.9,93.9,8.4,2.0,10.3,3.3,3.89,89.8,High Achievers
+25.8,88.6,8.4,1.7,15.8,5.1,4.0,98.6,High Achievers
+16.6,81.3,7.4,5.9,10.6,3.3,3.58,78.9,Balanced Mainstream
+28.7,89.7,6.5,2.0,16.9,1.0,3.77,89.9,High Achievers
+19.8,78.4,6.6,3.8,8.0,3.8,2.61,75.9,Balanced Mainstream
+20.5,78.6,7.4,6.5,2.0,4.4,3.16,87.3,Balanced Mainstream
+19.4,79.8,6.9,6.2,10.5,5.5,3.42,82.8,Balanced Mainstream
+27.7,92.9,7.3,2.0,11.7,3.6,3.95,92.2,High Achievers
+29.6,83.2,8.9,2.3,13.9,1.9,3.75,100.0,High Achievers
+31.5,92.1,8.7,3.9,9.3,4.1,3.97,90.6,High Achievers
+19.2,83.2,8.1,5.2,9.0,4.5,2.75,81.9,Balanced Mainstream
+18.0,79.2,5.9,6.1,9.4,6.3,2.65,83.6,Balanced Mainstream
+4.8,59.5,4.7,7.2,0.0,5.5,2.51,69.9,At-Risk / Distracted
+23.5,84.0,8.0,4.1,8.2,6.4,3.45,89.6,Balanced Mainstream
+7.6,62.4,3.8,7.6,3.0,9.2,2.28,48.5,At-Risk / Distracted
+17.8,76.0,6.4,3.3,9.3,6.8,3.15,81.4,Balanced Mainstream
+24.0,74.7,7.2,5.5,11.5,4.2,3.1,81.1,Balanced Mainstream
+12.4,74.8,5.7,4.4,8.1,5.4,3.02,78.5,Balanced Mainstream
+18.3,81.2,6.0,4.8,11.8,4.0,3.42,84.9,Balanced Mainstream
+26.3,92.4,7.6,2.7,16.6,4.4,3.9,93.0,High Achievers
+4.8,65.6,5.9,5.8,1.6,9.2,1.51,49.3,At-Risk / Distracted
+20.9,79.3,7.6,2.5,3.0,6.4,2.8,88.8,Balanced Mainstream
+10.2,55.2,5.3,5.0,2.9,8.1,1.84,68.2,At-Risk / Distracted
+26.1,95.8,8.1,2.3,8.7,2.5,3.73,93.5,High Achievers
+23.8,93.6,7.1,3.1,9.2,4.6,3.54,99.0,High Achievers
+5.8,55.9,4.6,5.4,5.1,9.4,1.5,54.5,At-Risk / Distracted
+19.4,74.7,9.0,4.2,11.4,5.5,3.28,86.0,Balanced Mainstream
+15.5,77.5,6.7,2.9,8.6,3.8,2.94,79.3,Balanced Mainstream
+10.0,49.2,4.7,8.9,0.0,7.4,2.08,35.0,At-Risk / Distracted
+32.4,90.0,6.8,1.9,14.3,3.3,3.73,93.7,High Achievers
+16.4,88.0,7.3,4.3,6.1,7.5,3.0,91.7,Balanced Mainstream
+12.0,70.8,6.2,5.7,9.1,4.7,3.34,83.2,Balanced Mainstream
+16.0,75.6,5.5,3.1,11.8,6.3,3.02,88.2,Balanced Mainstream
+7.4,61.0,4.9,7.3,5.8,6.9,1.94,51.6,At-Risk / Distracted
+27.1,89.9,7.0,2.1,10.7,4.5,3.77,93.2,High Achievers
+8.6,71.8,5.0,10.0,3.3,7.3,2.08,50.9,At-Risk / Distracted
+16.7,81.4,5.5,5.1,8.3,4.7,3.27,80.2,Balanced Mainstream
+10.1,70.4,4.7,7.9,5.9,8.4,2.77,57.6,At-Risk / Distracted
+11.4,75.0,5.7,6.5,6.1,7.6,1.66,47.4,At-Risk / Distracted
+6.9,75.0,6.7,5.0,2.7,7.3,2.12,49.8,At-Risk / Distracted
+31.2,93.4,7.3,3.7,6.5,3.7,3.68,90.0,High Achievers
+19.7,84.4,7.5,2.7,10.3,3.5,2.89,73.0,Balanced Mainstream
+27.2,89.0,7.9,2.8,14.2,2.1,3.94,93.4,High Achievers
+11.1,58.0,4.2,9.1,3.8,10.0,2.38,55.8,At-Risk / Distracted
+23.1,78.9,9.0,4.7,6.3,6.3,2.96,79.0,Balanced Mainstream
+29.2,96.2,8.6,1.2,16.6,3.8,3.96,94.7,High Achievers
+9.0,47.3,4.3,5.7,3.6,6.9,2.1,44.3,At-Risk / Distracted
+19.4,80.6,8.1,5.7,11.1,6.4,2.88,80.1,Balanced Mainstream
+17.0,87.0,5.5,2.7,6.5,3.9,3.21,70.4,Balanced Mainstream
+24.8,93.2,7.7,1.0,11.6,5.5,3.93,91.4,High Achievers
+28.7,90.5,6.7,1.5,16.8,2.2,3.72,95.2,High Achievers
+19.7,68.8,5.7,5.1,10.0,4.5,3.08,78.4,Balanced Mainstream
+20.2,89.0,5.8,2.5,9.7,6.8,3.57,85.7,Balanced Mainstream
+19.3,80.5,5.9,5.5,8.1,4.0,3.15,83.7,Balanced Mainstream
+6.9,41.6,7.0,6.2,2.8,7.7,2.77,62.3,At-Risk / Distracted
+12.4,58.2,5.2,6.1,5.4,7.5,2.37,47.5,At-Risk / Distracted
+22.0,74.6,6.8,4.9,4.4,6.0,3.23,76.0,Balanced Mainstream
+7.2,54.2,6.9,6.0,0.7,9.6,2.34,52.1,At-Risk / Distracted
+23.6,90.4,7.2,4.5,13.8,2.5,3.71,100.0,High Achievers
+10.2,63.1,4.3,6.8,2.2,7.7,1.97,72.0,At-Risk / Distracted
+16.6,78.5,5.9,3.5,6.6,6.7,2.71,84.9,Balanced Mainstream
+31.3,88.0,7.5,3.4,8.4,3.9,3.7,92.8,High Achievers
+30.8,100.0,7.7,2.9,12.2,3.6,3.5,93.7,High Achievers
+30.7,95.0,6.3,2.8,14.8,3.4,3.77,96.5,High Achievers
+28.4,87.1,7.1,1.3,11.6,4.8,3.87,96.9,High Achievers
+27.9,97.8,7.2,3.2,8.7,3.9,3.75,93.9,High Achievers
+22.8,90.1,7.3,4.0,10.1,2.8,3.82,94.2,High Achievers
+25.7,91.2,9.5,1.3,13.8,4.1,3.8,92.0,High Achievers
+20.5,74.8,8.7,4.3,13.2,5.2,2.98,80.0,Balanced Mainstream
+30.3,90.3,7.1,3.6,10.9,3.4,3.89,91.6,High Achievers
+10.7,54.7,4.5,7.7,0.1,7.9,2.25,45.9,At-Risk / Distracted
+12.9,62.9,4.5,8.5,2.0,10.0,2.56,52.0,At-Risk / Distracted
+9.1,58.5,4.9,7.7,6.6,7.7,1.71,60.2,At-Risk / Distracted
+23.8,82.1,7.6,2.4,13.2,2.4,3.68,87.5,High Achievers
+9.5,56.9,7.0,6.2,0.8,7.7,2.03,50.6,At-Risk / Distracted
+21.5,82.8,6.1,4.0,10.5,3.5,3.04,76.3,Balanced Mainstream
+19.7,76.3,7.0,4.7,6.2,6.2,3.01,69.4,Balanced Mainstream
+23.8,89.8,6.8,2.9,7.6,2.3,3.96,85.9,High Achievers
+10.0,52.7,5.0,8.4,3.4,8.4,1.68,61.5,At-Risk / Distracted
+14.6,81.2,8.1,4.3,6.8,3.0,3.39,76.5,Balanced Mainstream
+6.3,59.0,4.5,8.4,3.6,10.0,2.04,57.6,At-Risk / Distracted
+15.2,72.3,7.2,5.5,8.8,6.3,3.22,86.0,Balanced Mainstream
+14.6,81.2,7.0,4.5,4.6,4.5,3.17,85.4,Balanced Mainstream
+12.6,75.6,7.3,4.4,11.9,5.5,2.99,88.2,Balanced Mainstream
+26.3,94.1,7.0,3.0,13.7,3.5,3.78,91.1,High Achievers
+7.0,63.5,4.4,7.4,2.7,8.0,2.9,56.3,At-Risk / Distracted
+22.3,82.8,8.1,4.1,13.0,6.7,3.35,76.2,Balanced Mainstream
+9.5,67.8,5.3,7.5,1.8,8.3,2.16,39.5,At-Risk / Distracted
+17.4,82.6,6.6,4.6,7.3,4.5,2.8,87.6,Balanced Mainstream
+23.3,81.1,7.4,3.0,12.2,5.0,3.04,79.5,Balanced Mainstream
+6.4,74.3,5.2,8.4,2.6,9.0,1.87,45.8,At-Risk / Distracted
+16.5,75.6,6.9,4.0,12.4,5.7,3.07,84.5,Balanced Mainstream
+30.8,90.2,8.5,2.7,15.1,4.8,3.57,95.7,High Achievers
+18.5,85.6,6.8,4.5,4.8,6.0,3.05,92.0,Balanced Mainstream
+21.1,82.5,6.6,4.7,8.1,6.4,3.12,80.2,Balanced Mainstream
+20.5,76.8,5.8,4.8,7.2,7.3,3.03,72.7,Balanced Mainstream
+20.2,82.2,5.5,4.9,7.1,6.2,2.63,92.0,Balanced Mainstream
+23.3,80.2,8.4,4.7,5.7,4.2,3.17,79.6,Balanced Mainstream
+21.3,94.8,7.7,3.6,11.9,3.1,4.0,90.6,High Achievers
+9.9,70.6,4.2,7.1,1.5,9.0,2.47,60.2,At-Risk / Distracted
+14.0,77.9,8.5,5.7,5.9,4.9,2.85,84.1,Balanced Mainstream
+14.3,84.5,5.6,4.6,7.1,5.9,3.15,80.7,Balanced Mainstream
+22.7,93.4,8.6,3.8,13.7,4.1,3.6,99.2,High Achievers
+30.7,90.3,8.0,2.2,14.0,5.1,3.83,96.4,High Achievers
+8.1,67.7,5.6,5.0,5.6,7.7,1.72,47.8,At-Risk / Distracted
+17.3,87.5,6.8,6.3,13.5,5.0,3.15,81.2,Balanced Mainstream
+20.5,84.3,7.5,4.1,10.5,6.9,3.48,67.6,Balanced Mainstream
+17.4,73.7,8.0,3.9,6.2,5.4,3.53,88.8,Balanced Mainstream
+22.4,81.3,6.0,5.0,5.1,4.9,2.69,86.7,Balanced Mainstream
+22.2,84.7,6.8,5.0,9.1,3.9,3.02,83.2,Balanced Mainstream
+10.8,60.6,6.5,7.7,0.1,7.2,2.02,68.2,At-Risk / Distracted
+26.9,86.5,8.3,1.3,11.1,4.0,3.87,91.7,High Achievers
+22.5,84.5,6.8,5.0,11.1,5.3,3.15,81.5,Balanced Mainstream
+20.7,91.1,9.0,2.7,9.5,5.5,3.39,65.0,Balanced Mainstream
+7.3,48.9,5.0,8.8,3.3,8.3,2.77,42.0,At-Risk / Distracted
+16.4,86.8,5.5,5.1,7.3,5.6,3.48,71.8,Balanced Mainstream
+8.3,42.0,4.1,6.8,7.1,9.4,2.41,63.8,At-Risk / Distracted
+12.3,60.9,3.5,6.7,3.2,7.7,1.75,44.7,At-Risk / Distracted
+18.6,75.4,7.0,4.2,5.0,6.8,2.99,78.8,Balanced Mainstream
+24.0,86.5,7.5,2.8,10.0,3.7,3.69,89.7,High Achievers
+30.3,88.4,7.7,2.9,18.5,4.5,3.66,96.7,High Achievers
+13.9,86.8,6.8,3.8,7.4,4.7,2.89,89.6,Balanced Mainstream
+17.9,76.4,8.6,3.5,6.2,7.3,3.25,91.5,Balanced Mainstream
+29.8,92.2,8.5,2.0,11.0,3.3,3.9,96.9,High Achievers
+13.8,75.8,7.4,4.8,5.2,5.9,3.37,67.4,Balanced Mainstream
+28.3,100.0,8.2,1.2,12.6,2.6,3.55,100.0,High Achievers
+27.0,94.5,8.4,2.4,18.6,2.2,3.8,97.5,High Achievers
+21.2,81.9,8.6,2.5,10.1,4.9,3.03,84.1,Balanced Mainstream
+15.5,84.6,6.7,2.5,8.5,6.8,2.83,85.8,Balanced Mainstream
+20.7,83.4,7.1,3.9,4.0,4.1,2.92,77.5,Balanced Mainstream
+8.2,65.5,6.6,8.3,3.8,8.2,1.89,61.3,At-Risk / Distracted
+21.2,75.8,6.0,5.2,5.6,4.6,3.21,92.0,Balanced Mainstream
+29.4,91.1,6.9,1.6,11.5,3.5,3.81,99.2,High Achievers
+8.6,63.9,5.6,9.3,5.7,8.2,2.25,48.8,At-Risk / Distracted
+12.0,67.7,8.9,5.4,3.9,6.1,3.11,82.6,Balanced Mainstream
+13.3,56.1,5.4,8.1,5.0,8.7,1.99,63.7,At-Risk / Distracted
+32.7,90.4,7.6,3.7,7.8,3.2,3.55,91.4,High Achievers
+32.6,91.9,6.5,2.1,12.0,5.2,3.74,97.0,High Achievers
+8.3,64.1,6.0,5.6,4.2,8.7,1.99,60.4,At-Risk / Distracted
+6.8,65.0,4.2,7.2,7.6,8.6,2.24,53.0,At-Risk / Distracted
+16.6,75.9,7.4,4.7,7.1,4.0,3.5,77.3,Balanced Mainstream
+14.9,67.3,5.5,4.2,12.1,4.8,3.36,87.2,Balanced Mainstream
+18.8,84.4,8.2,6.1,10.4,5.6,2.66,78.4,Balanced Mainstream
+29.4,89.6,7.1,1.8,12.1,4.7,3.82,93.6,High Achievers
+6.7,62.5,6.7,6.8,1.9,8.9,1.5,52.5,At-Risk / Distracted
+20.7,87.1,7.4,3.9,10.1,5.3,3.09,76.9,Balanced Mainstream
+22.0,76.9,8.1,2.5,6.1,8.0,3.2,69.8,Balanced Mainstream
+17.3,70.6,7.8,4.0,6.0,6.6,3.11,91.1,Balanced Mainstream
+8.2,64.9,6.4,7.2,1.3,9.9,1.75,57.9,At-Risk / Distracted
+21.8,91.1,8.1,2.7,7.3,5.0,3.86,89.2,High Achievers
+9.2,60.9,5.8,6.3,4.7,9.6,1.59,67.0,At-Risk / Distracted
+30.3,95.0,8.2,2.5,12.4,2.5,3.69,92.0,High Achievers
+14.7,74.8,8.4,2.5,2.2,4.2,3.07,78.0,Balanced Mainstream
+15.3,79.7,6.5,3.1,11.2,4.3,3.65,78.7,Balanced Mainstream
+10.8,64.2,4.7,6.8,2.7,7.4,2.63,65.0,At-Risk / Distracted
+18.6,79.7,7.7,5.1,11.5,4.6,3.02,79.3,Balanced Mainstream
+16.5,83.0,6.0,4.5,8.1,5.3,3.38,87.9,Balanced Mainstream
+7.5,51.8,4.2,6.4,4.9,7.1,2.38,48.6,At-Risk / Distracted
+19.2,76.1,5.5,6.0,8.5,4.1,3.31,80.3,Balanced Mainstream
+12.1,84.4,7.3,4.2,9.5,4.9,3.33,68.3,Balanced Mainstream
+24.3,89.3,7.2,1.0,19.7,3.3,3.84,97.1,High Achievers
+34.5,88.4,8.7,4.0,7.9,1.4,3.83,95.1,High Achievers
+28.8,85.4,6.8,2.8,14.4,3.1,3.65,94.7,High Achievers
+5.7,64.8,5.5,6.8,2.7,7.0,2.37,61.6,At-Risk / Distracted
+28.7,92.3,7.7,3.1,18.0,4.5,3.98,95.3,High Achievers
+17.5,82.7,7.6,3.3,9.5,4.7,3.26,82.7,Balanced Mainstream
+33.3,94.4,8.6,3.5,13.6,3.5,3.57,98.9,High Achievers
+23.2,89.4,7.2,3.4,15.0,4.0,3.52,100.0,High Achievers
+19.8,70.9,7.4,3.9,8.6,5.4,2.99,80.8,Balanced Mainstream
+6.8,55.3,5.8,8.7,1.2,9.3,2.84,38.5,At-Risk / Distracted
+14.1,75.7,7.5,4.6,9.5,5.1,2.89,80.5,Balanced Mainstream
+27.7,94.1,8.9,2.1,13.4,3.2,3.82,95.0,High Achievers
+19.4,81.6,7.5,4.8,10.0,5.8,3.6,73.3,Balanced Mainstream
+27.0,92.7,8.9,1.0,13.2,4.9,3.77,95.6,High Achievers
+25.2,89.0,6.5,2.5,9.6,4.0,3.8,87.3,High Achievers
+27.5,90.2,8.0,1.7,7.7,3.1,3.72,94.2,High Achievers
+33.2,83.5,7.1,1.7,14.1,2.3,3.61,94.4,High Achievers
+6.7,52.7,4.8,8.4,2.6,7.4,2.2,54.8,At-Risk / Distracted
+11.0,57.5,4.2,8.0,1.9,8.2,2.14,65.2,At-Risk / Distracted
+10.5,52.8,4.2,6.4,4.1,8.2,2.58,37.6,At-Risk / Distracted
+20.4,78.9,9.0,4.4,5.0,4.5,2.94,90.1,Balanced Mainstream
+17.9,76.5,7.3,3.7,11.5,4.2,3.13,77.4,Balanced Mainstream
+22.4,84.2,5.5,5.8,2.0,4.9,3.29,68.6,Balanced Mainstream
+11.8,49.7,3.9,5.9,7.3,9.0,1.89,52.5,At-Risk / Distracted
+8.0,70.4,5.6,7.7,3.2,7.1,2.37,43.7,At-Risk / Distracted
+27.2,92.5,9.0,2.5,12.1,3.0,3.56,100.0,High Achievers
+15.2,80.2,6.2,4.0,6.4,5.7,2.96,91.4,Balanced Mainstream
+16.8,86.2,5.7,4.4,14.3,5.2,2.95,77.0,Balanced Mainstream
+28.9,97.4,6.5,3.0,11.1,6.0,4.0,95.1,High Achievers
+33.7,83.8,7.7,3.6,17.0,6.1,3.43,93.1,High Achievers
+18.7,73.2,5.5,2.5,12.3,4.9,3.65,77.3,Balanced Mainstream
+10.4,53.4,3.8,6.6,1.8,6.9,1.79,44.6,At-Risk / Distracted
+5.6,57.2,5.6,6.9,1.0,7.5,2.51,56.3,At-Risk / Distracted
+16.2,85.2,9.0,4.3,14.3,4.1,3.2,74.8,Balanced Mainstream
+23.1,83.1,6.4,3.8,10.8,6.6,3.0,89.7,Balanced Mainstream
+23.2,77.3,8.2,4.0,3.5,5.4,3.04,86.1,Balanced Mainstream
+21.7,83.7,6.7,4.9,9.5,4.5,3.54,82.4,Balanced Mainstream
+32.0,96.7,7.2,2.2,10.2,3.0,3.77,100.0,High Achievers
+13.7,62.6,5.5,8.3,4.9,7.6,2.64,41.6,At-Risk / Distracted
+23.6,92.3,7.0,1.7,12.9,1.0,3.92,98.7,High Achievers
+22.2,89.8,8.6,4.6,10.8,5.8,3.2,74.1,Balanced Mainstream
+29.9,91.2,8.7,4.2,17.2,5.3,3.93,97.1,High Achievers
+24.9,87.9,7.5,2.6,8.0,2.3,3.8,96.5,High Achievers
+21.1,77.8,7.0,4.7,9.2,6.7,3.17,73.1,Balanced Mainstream
+29.2,89.6,6.6,2.8,11.5,4.9,4.0,93.7,High Achievers
+6.8,68.2,6.5,6.9,1.5,8.2,2.1,72.0,At-Risk / Distracted
+13.4,73.9,6.1,4.3,6.3,7.0,2.77,90.1,Balanced Mainstream
+12.8,50.9,4.4,9.1,3.3,7.1,1.91,52.1,At-Risk / Distracted
+31.0,89.7,7.3,3.1,14.2,5.6,3.53,92.7,High Achievers
+27.3,92.3,8.2,2.6,10.3,1.2,3.85,88.5,High Achievers
+32.0,91.8,7.1,2.7,13.7,3.4,3.69,100.0,High Achievers
+19.1,77.7,9.0,4.3,2.0,7.4,3.31,88.6,Balanced Mainstream
+19.4,87.5,6.0,5.3,5.3,5.5,2.87,80.3,Balanced Mainstream
+24.3,79.1,6.6,4.9,6.3,6.4,3.26,84.3,Balanced Mainstream
+24.2,92.2,7.1,1.9,8.7,4.5,3.99,93.6,High Achievers
+7.6,57.8,6.4,5.6,3.8,7.7,2.56,42.3,At-Risk / Distracted
+5.4,53.9,6.2,5.0,4.4,9.0,2.61,65.1,At-Risk / Distracted
+9.0,52.6,3.6,9.0,3.5,7.4,2.25,42.9,At-Risk / Distracted
+19.9,75.7,6.4,3.7,11.2,8.0,3.07,71.4,Balanced Mainstream
+15.3,76.5,7.2,3.0,6.2,5.9,3.45,82.8,Balanced Mainstream
+19.4,75.6,5.5,3.6,10.3,6.0,3.13,87.3,Balanced Mainstream
+20.6,77.3,6.5,5.4,6.0,6.3,2.82,83.9,Balanced Mainstream
+7.1,57.4,5.3,7.8,4.9,8.5,2.57,62.6,At-Risk / Distracted
+24.2,83.3,7.4,3.0,13.1,4.2,3.3,82.5,Balanced Mainstream
+30.7,89.6,6.5,3.1,10.0,4.6,3.88,97.2,High Achievers
+25.5,88.8,9.5,2.0,4.2,3.1,4.0,96.3,High Achievers
+17.3,84.6,8.5,4.0,8.7,4.0,3.26,65.0,Balanced Mainstream
+15.9,89.1,7.1,5.2,10.8,5.2,3.12,80.5,Balanced Mainstream
+17.8,82.7,6.6,5.4,6.0,6.2,3.41,87.2,Balanced Mainstream
+19.1,71.8,7.4,3.4,11.7,6.3,3.09,75.5,Balanced Mainstream
+4.1,50.3,5.2,8.2,1.2,8.1,1.73,53.0,At-Risk / Distracted
+8.1,62.7,4.4,8.0,0.5,7.9,2.55,55.1,At-Risk / Distracted
+18.7,65.0,8.4,5.0,3.3,4.3,2.75,88.2,Balanced Mainstream
+19.0,68.5,6.2,3.7,6.6,5.0,3.65,79.2,Balanced Mainstream
+8.8,61.1,5.2,8.3,3.6,7.7,2.6,53.3,At-Risk / Distracted
+14.3,75.5,8.1,5.2,9.3,5.0,3.07,81.2,Balanced Mainstream
+19.0,82.6,8.3,5.4,10.6,7.6,2.8,85.0,Balanced Mainstream
+18.9,87.2,8.5,5.9,2.7,6.7,3.02,71.4,Balanced Mainstream
+17.1,79.8,8.3,3.1,8.9,3.0,3.0,79.2,Balanced Mainstream
+15.5,75.7,8.4,4.0,9.5,5.5,2.6,84.2,Balanced Mainstream
+21.1,82.0,6.6,4.9,5.2,3.0,3.35,79.3,Balanced Mainstream
+19.2,91.3,6.4,3.6,3.0,4.7,2.78,75.8,Balanced Mainstream
+25.5,93.0,7.2,2.4,11.3,3.9,3.83,97.4,High Achievers
+17.8,76.6,7.4,3.3,8.6,6.3,3.28,78.5,Balanced Mainstream
+20.9,80.5,5.8,6.3,11.3,5.9,3.11,81.7,Balanced Mainstream
+31.3,91.0,8.7,3.2,13.4,1.0,3.68,95.8,High Achievers
+21.0,88.8,8.5,3.1,11.1,2.5,3.68,95.0,High Achievers
+29.8,89.9,7.0,3.7,7.9,4.9,3.97,94.3,High Achievers
+16.4,73.4,7.2,5.8,5.0,5.6,3.21,78.8,Balanced Mainstream
+15.8,85.9,5.5,4.1,7.8,6.0,2.96,74.3,Balanced Mainstream
+5.2,58.5,5.2,7.6,1.2,8.1,2.11,45.8,At-Risk / Distracted
+16.2,76.7,7.3,4.4,7.7,6.5,3.12,84.0,Balanced Mainstream
+14.1,84.6,6.0,4.8,6.2,6.6,3.41,74.7,Balanced Mainstream
+16.1,82.7,6.5,4.9,6.8,5.6,3.25,78.0,Balanced Mainstream
+16.1,80.3,5.7,5.0,2.0,6.8,3.33,92.0,Balanced Mainstream
+29.7,94.9,6.1,3.0,16.5,4.7,3.78,98.1,High Achievers
+15.0,86.3,6.2,3.8,11.9,5.2,2.8,85.7,Balanced Mainstream
+22.6,82.9,7.4,4.5,6.4,5.2,3.65,79.8,Balanced Mainstream
+17.9,85.3,5.5,4.0,5.3,6.2,3.34,84.8,Balanced Mainstream
+16.5,83.1,6.4,4.2,6.3,3.0,2.71,82.2,Balanced Mainstream
+29.7,88.7,8.1,2.8,12.4,4.4,4.0,96.3,High Achievers
+19.7,75.0,6.9,3.5,13.6,4.7,3.57,87.6,Balanced Mainstream
+17.8,74.7,6.5,5.0,7.0,6.4,2.89,79.1,Balanced Mainstream
+13.8,83.5,8.5,4.2,8.3,4.2,2.6,78.2,Balanced Mainstream
+7.1,69.0,5.6,5.6,2.5,7.8,1.97,72.0,At-Risk / Distracted
+18.6,68.2,6.9,6.5,8.7,4.5,3.21,83.2,Balanced Mainstream
+21.0,82.7,5.5,5.0,14.1,6.5,2.83,78.4,Balanced Mainstream
+14.7,74.3,7.4,4.1,4.1,4.9,3.65,73.9,Balanced Mainstream
+27.7,85.9,8.0,2.6,7.9,3.0,3.9,92.6,High Achievers
+35.7,97.5,7.4,2.8,6.1,4.8,3.66,99.6,High Achievers
+14.2,81.9,9.0,6.1,11.6,7.4,2.69,85.3,Balanced Mainstream
+18.5,68.5,6.4,3.1,7.9,5.5,3.6,92.0,Balanced Mainstream
+19.5,89.9,7.3,4.5,11.4,4.3,3.19,77.1,Balanced Mainstream
+6.8,64.0,5.5,6.6,4.8,8.0,2.42,44.4,At-Risk / Distracted
+28.3,88.4,7.2,2.7,13.2,2.2,3.88,89.4,High Achievers
+12.2,64.2,4.5,5.6,0.0,8.8,2.18,52.4,At-Risk / Distracted
+25.0,88.2,6.4,2.2,10.5,3.5,3.59,92.6,High Achievers
+24.6,95.3,7.5,1.9,9.6,2.6,3.71,98.9,High Achievers
+8.4,66.5,7.0,6.6,4.5,6.4,2.06,50.1,At-Risk / Distracted
+25.7,88.9,8.4,1.4,15.7,2.9,3.74,96.6,High Achievers
+26.3,90.1,7.9,1.4,19.7,3.6,3.85,91.7,High Achievers
+28.2,83.8,6.7,1.2,15.7,2.5,3.87,97.8,High Achievers
+15.8,76.7,7.3,3.9,8.7,5.2,3.41,73.2,Balanced Mainstream
+20.8,85.5,5.5,3.8,5.7,3.0,3.65,70.8,Balanced Mainstream
+19.7,74.4,7.0,2.7,13.6,6.3,3.08,75.3,Balanced Mainstream
+28.9,86.8,7.9,2.4,14.8,2.2,3.89,100.0,High Achievers
+17.1,91.9,7.4,3.0,4.8,5.5,2.92,92.0,Balanced Mainstream
+20.0,79.5,9.0,5.4,4.4,6.8,3.0,78.3,Balanced Mainstream
+33.4,92.3,7.9,3.8,11.0,3.0,3.57,97.6,High Achievers
+13.2,68.6,6.5,3.9,2.0,6.1,2.91,79.8,Balanced Mainstream
+31.4,91.6,8.4,2.2,15.6,5.1,3.88,97.4,High Achievers
+25.9,94.5,7.5,3.8,14.9,2.9,3.79,97.5,High Achievers
+8.3,51.3,6.0,5.8,3.6,8.0,2.41,59.0,At-Risk / Distracted
+23.6,88.6,6.5,2.5,12.4,1.9,3.91,92.2,High Achievers
+18.1,70.2,7.9,3.5,12.5,3.9,2.92,77.6,Balanced Mainstream
+6.2,49.2,6.1,7.2,3.7,7.7,2.42,58.2,At-Risk / Distracted
+25.4,89.7,8.9,2.8,9.3,4.2,3.97,94.7,High Achievers
+12.7,80.9,7.3,4.3,7.2,4.2,3.36,86.0,Balanced Mainstream
+28.8,93.5,6.0,3.8,12.5,3.5,3.85,95.4,High Achievers
+29.2,97.5,8.3,1.5,7.2,2.4,3.83,95.1,High Achievers
+33.5,97.1,6.9,1.4,9.9,4.3,3.84,91.8,High Achievers
+14.7,73.5,6.8,4.0,12.8,5.1,2.73,81.2,Balanced Mainstream
+18.8,76.9,8.2,3.3,8.9,6.6,2.96,81.0,Balanced Mainstream
+33.5,95.8,7.2,2.0,11.1,1.9,3.92,95.5,High Achievers
+9.4,63.5,6.0,5.0,4.0,9.3,2.73,58.0,At-Risk / Distracted
+15.0,64.9,6.7,5.0,3.7,6.3,2.56,51.4,At-Risk / Distracted
+25.7,96.0,8.3,3.0,13.5,4.6,3.8,95.0,High Achievers
+30.7,94.7,6.9,3.2,7.5,4.0,3.74,95.4,High Achievers
+14.5,64.0,3.5,8.3,4.4,7.6,2.53,46.7,At-Risk / Distracted
+35.5,89.4,7.5,2.3,11.5,4.5,3.96,98.1,High Achievers
+36.1,85.3,7.1,3.4,13.6,4.1,3.81,96.5,High Achievers
+5.7,61.1,5.3,6.3,4.7,9.2,2.15,66.6,At-Risk / Distracted
+12.4,71.8,8.2,5.0,9.5,3.0,3.1,79.7,Balanced Mainstream
+24.3,90.9,7.8,2.8,11.4,2.7,3.73,88.1,High Achievers
+8.5,60.9,3.5,7.9,4.9,7.9,2.5,65.9,At-Risk / Distracted
+8.2,56.8,6.3,5.9,5.8,9.6,2.22,62.3,At-Risk / Distracted
+30.5,86.3,8.4,2.8,12.9,4.9,3.88,96.6,High Achievers
+28.6,93.0,8.8,3.2,11.4,5.6,3.52,95.2,High Achievers
+19.7,82.6,6.4,4.9,7.2,3.0,3.12,75.8,Balanced Mainstream
+28.9,92.5,6.0,3.3,15.3,3.9,3.62,93.9,High Achievers
+20.3,82.8,8.2,4.5,10.6,6.7,2.82,71.4,Balanced Mainstream
+25.1,91.9,7.5,2.8,17.0,4.6,4.0,93.7,High Achievers
+15.5,90.5,5.5,4.3,3.2,5.9,3.36,74.4,Balanced Mainstream
+17.3,80.4,7.1,3.7,13.8,5.4,3.34,82.3,Balanced Mainstream
+5.0,49.2,5.7,7.8,6.2,8.8,1.98,72.0,At-Risk / Distracted
+10.6,69.5,5.7,6.6,3.5,10.0,2.35,47.5,At-Risk / Distracted
+26.1,88.0,8.8,3.5,11.4,3.1,3.83,95.1,High Achievers
+20.0,65.0,7.1,5.0,8.1,4.5,3.01,78.2,Balanced Mainstream
+19.2,80.9,6.8,3.7,9.5,6.3,3.34,80.7,Balanced Mainstream
+19.4,80.8,8.9,6.1,2.0,7.1,3.09,75.2,Balanced Mainstream
+16.2,79.4,8.2,3.3,9.0,5.1,3.01,75.4,Balanced Mainstream
+17.9,79.0,7.9,3.0,8.0,6.5,3.26,83.5,Balanced Mainstream
+8.6,53.5,5.2,7.2,5.9,7.9,2.17,46.8,At-Risk / Distracted
+16.7,77.7,7.5,4.7,12.4,3.8,2.98,88.3,Balanced Mainstream
+26.7,97.9,8.4,2.8,14.5,3.3,4.0,100.0,High Achievers
+12.0,81.2,6.9,4.3,6.8,6.6,2.94,77.7,Balanced Mainstream
+15.8,90.5,6.2,4.8,8.8,5.7,2.77,84.4,Balanced Mainstream
+6.8,50.9,5.4,7.5,2.5,7.8,2.51,66.8,At-Risk / Distracted
+7.9,61.5,5.7,7.2,2.4,9.6,2.47,64.1,At-Risk / Distracted
+27.1,96.8,7.0,3.3,10.3,3.2,3.84,92.8,High Achievers
+11.7,55.8,5.0,5.4,3.1,9.4,1.82,46.9,At-Risk / Distracted
+17.6,78.6,5.6,4.5,8.2,5.1,3.18,74.3,Balanced Mainstream
+14.4,73.6,7.2,5.6,8.0,6.4,3.17,80.7,Balanced Mainstream
+12.1,56.5,4.9,5.8,1.9,10.0,2.24,60.8,At-Risk / Distracted
+19.4,81.4,8.3,6.5,6.9,5.7,3.1,81.4,Balanced Mainstream
+16.3,72.5,6.2,5.2,3.3,3.2,2.76,74.8,Balanced Mainstream
+24.8,93.3,7.9,2.1,9.5,2.3,3.77,86.0,High Achievers
+20.4,91.6,6.8,5.3,7.1,5.3,2.77,80.9,Balanced Mainstream
+21.7,74.1,6.9,5.3,8.6,6.2,3.3,78.7,Balanced Mainstream
+19.7,86.3,7.2,4.0,8.3,7.1,3.03,71.3,Balanced Mainstream
+15.2,81.7,6.9,3.6,8.6,4.3,3.09,80.3,Balanced Mainstream
+18.1,84.0,7.2,4.4,2.0,6.9,3.11,77.7,Balanced Mainstream
+26.2,89.9,7.9,2.5,14.9,3.6,3.71,99.8,High Achievers
+27.4,98.1,7.1,3.6,12.2,2.6,3.92,95.9,High Achievers
+22.7,85.4,6.9,5.6,7.3,5.7,3.24,65.0,Balanced Mainstream
+32.1,93.3,6.4,2.6,11.6,2.8,3.81,95.6,High Achievers
+21.2,93.0,9.0,3.3,14.8,1.8,3.62,92.3,High Achievers
+18.2,76.8,5.8,3.5,11.0,4.8,3.22,84.6,Balanced Mainstream
+20.0,70.9,6.4,3.6,8.7,6.2,2.93,82.9,Balanced Mainstream
+12.0,82.9,8.1,5.8,8.7,4.6,3.05,86.8,Balanced Mainstream
+28.2,86.1,7.5,1.7,9.3,3.0,3.78,93.6,High Achievers
+28.8,95.3,7.7,2.7,9.8,2.6,4.0,95.1,High Achievers
+24.3,85.6,7.8,2.2,18.5,2.4,3.71,99.2,High Achievers
+20.0,80.6,7.4,4.1,4.6,6.4,2.96,82.7,Balanced Mainstream
+7.6,48.5,5.7,7.1,3.1,8.6,1.95,52.9,At-Risk / Distracted
+12.0,69.5,7.7,3.9,5.3,5.2,3.31,75.8,Balanced Mainstream
+22.4,94.3,7.2,1.6,9.5,4.2,3.6,100.0,High Achievers
+18.8,82.9,7.3,2.6,11.9,6.2,2.88,72.2,Balanced Mainstream
+12.0,60.3,5.8,5.9,5.7,9.1,2.19,69.4,At-Risk / Distracted
+17.5,87.7,6.2,5.4,5.1,5.1,2.87,87.4,Balanced Mainstream
+15.6,87.7,7.3,4.5,5.7,5.5,3.57,79.3,Balanced Mainstream
+17.0,69.6,8.9,3.3,5.5,7.3,2.92,72.3,Balanced Mainstream
+15.4,78.0,7.7,2.6,5.4,5.3,3.06,69.5,Balanced Mainstream
+28.0,94.3,6.9,1.3,10.0,5.0,3.97,97.4,High Achievers
+20.5,90.7,5.7,4.1,6.3,4.9,3.14,73.7,Balanced Mainstream
+13.4,84.2,7.8,4.7,6.2,3.6,3.02,80.6,Balanced Mainstream
+18.9,82.7,5.7,5.5,3.2,6.2,3.16,77.1,Balanced Mainstream
+9.5,70.2,5.2,6.7,3.4,6.3,1.99,46.9,At-Risk / Distracted
+22.3,78.9,6.9,3.1,7.4,6.0,3.0,89.5,Balanced Mainstream
+25.1,92.9,7.4,1.1,9.1,2.8,3.9,91.3,High Achievers
+34.2,93.5,7.0,3.8,15.7,3.7,3.75,97.4,High Achievers
+24.0,75.3,7.4,5.8,10.2,6.2,3.32,69.6,Balanced Mainstream
+6.1,70.1,4.8,6.2,4.5,8.5,2.1,59.3,At-Risk / Distracted
+17.4,84.3,7.3,3.5,8.0,6.0,3.18,72.3,Balanced Mainstream
+20.2,81.5,6.0,5.7,7.7,3.0,3.6,79.3,Balanced Mainstream
+19.6,76.8,9.0,4.5,9.5,6.3,3.11,80.1,Balanced Mainstream
+18.8,100.0,6.4,2.1,15.6,4.1,4.0,92.1,High Achievers
+36.6,97.1,7.8,1.9,13.7,3.4,3.88,93.4,High Achievers
+19.9,79.3,7.3,4.4,2.0,5.0,2.68,73.5,Balanced Mainstream
+9.3,49.8,6.6,7.5,2.7,8.2,1.78,69.7,At-Risk / Distracted
+18.0,86.0,5.5,3.9,9.5,6.1,2.99,85.5,Balanced Mainstream
+27.4,90.2,6.3,3.1,13.6,2.9,3.78,91.7,High Achievers
+27.3,93.3,7.5,3.9,12.0,3.3,3.53,93.4,High Achievers
+12.0,76.6,7.2,6.2,11.4,5.2,3.02,85.0,Balanced Mainstream
+15.4,90.9,5.8,4.7,4.6,4.3,3.15,70.9,Balanced Mainstream
+18.0,70.7,6.6,3.1,7.0,6.3,2.97,82.1,Balanced Mainstream
+14.0,73.4,9.0,4.3,6.6,6.4,3.17,75.3,Balanced Mainstream
+25.5,86.7,6.6,2.3,12.0,4.0,3.73,100.0,High Achievers
+11.4,55.0,4.9,6.3,4.1,8.2,2.44,60.5,At-Risk / Distracted
+29.8,89.7,7.9,2.5,5.5,3.6,3.8,97.1,High Achievers
+17.6,76.8,5.6,4.8,12.3,4.5,3.27,75.5,Balanced Mainstream
+7.1,63.2,7.0,7.2,1.6,8.5,2.32,57.9,At-Risk / Distracted
+9.3,53.4,4.5,6.4,3.0,8.2,1.54,65.5,At-Risk / Distracted
+13.9,49.3,5.1,7.2,1.6,7.3,2.79,67.2,At-Risk / Distracted
+21.1,70.2,6.2,4.7,9.1,3.8,3.15,67.4,Balanced Mainstream
+17.6,76.4,5.5,4.8,6.6,4.6,3.19,65.1,Balanced Mainstream
+22.6,82.7,7.1,4.8,11.2,4.3,3.02,88.6,Balanced Mainstream
+26.6,96.7,8.0,1.7,12.2,1.0,3.79,95.7,High Achievers
+26.4,96.4,7.5,2.7,9.9,3.3,3.82,94.4,High Achievers
+17.2,80.5,7.5,5.6,4.8,5.7,3.41,75.7,Balanced Mainstream
+18.9,73.3,5.8,3.4,6.3,6.1,3.45,92.0,Balanced Mainstream
+26.9,90.0,6.3,2.4,9.0,3.0,3.81,95.9,High Achievers
+27.6,93.0,7.3,3.0,10.3,5.5,3.72,95.6,High Achievers
+17.0,78.9,7.8,4.4,8.0,5.8,3.17,80.1,Balanced Mainstream
+34.6,95.0,8.9,3.4,9.2,2.9,3.78,96.1,High Achievers
+18.6,78.0,7.0,4.9,5.1,4.9,3.34,81.4,Balanced Mainstream
+11.9,62.9,5.6,7.9,3.5,8.7,2.64,49.7,At-Risk / Distracted
+14.1,75.7,8.0,6.5,11.2,3.9,3.33,73.0,Balanced Mainstream
+8.2,71.1,6.5,7.6,6.7,8.1,2.32,46.4,At-Risk / Distracted
+23.0,85.6,7.1,3.6,10.0,3.3,3.9,100.0,High Achievers
+19.3,87.6,7.3,5.5,6.2,5.5,3.04,81.3,Balanced Mainstream
+27.1,100.0,7.4,3.7,10.2,4.7,3.68,97.3,High Achievers
+25.0,74.3,7.7,4.1,6.0,5.3,3.39,92.0,Balanced Mainstream
+18.3,82.1,7.8,4.8,4.6,4.1,3.22,84.9,Balanced Mainstream
+8.7,57.9,3.5,7.7,2.6,8.4,1.97,68.7,At-Risk / Distracted
+13.7,55.9,4.8,6.3,4.7,7.9,2.59,66.6,At-Risk / Distracted
+20.6,77.5,5.9,4.3,8.6,4.0,3.64,73.2,Balanced Mainstream
+33.1,93.2,7.3,2.2,15.1,5.3,3.94,91.0,High Achievers
+20.4,73.1,5.6,5.3,3.4,5.2,3.04,67.8,Balanced Mainstream
+11.2,59.2,4.6,8.8,3.4,8.3,2.3,60.1,At-Risk / Distracted
+8.1,63.5,5.0,6.5,0.5,7.2,2.72,50.9,At-Risk / Distracted
+11.5,57.0,6.3,8.5,8.0,7.6,2.37,49.3,At-Risk / Distracted
+16.5,72.3,7.6,4.4,7.4,6.4,2.6,91.7,Balanced Mainstream
+15.7,85.7,8.0,3.1,10.9,6.1,3.24,82.1,Balanced Mainstream
+8.0,50.5,4.8,7.3,4.1,7.3,2.8,54.6,At-Risk / Distracted
+7.4,57.1,4.0,6.3,0.0,7.5,2.29,57.9,At-Risk / Distracted
+25.5,90.3,7.9,4.3,13.1,4.6,3.93,95.5,High Achievers
+14.9,68.3,7.0,6.4,7.0,5.8,3.06,67.8,Balanced Mainstream
+16.9,77.0,5.7,3.9,4.5,6.3,3.16,74.9,Balanced Mainstream
+26.0,92.1,7.6,2.7,15.7,3.4,3.67,93.2,High Achievers
+13.4,79.8,8.1,2.7,3.9,6.5,3.32,73.1,Balanced Mainstream
+11.9,52.0,4.0,9.7,6.2,7.6,1.97,42.3,At-Risk / Distracted
+30.4,89.3,9.3,3.0,10.9,4.4,4.0,96.6,High Achievers
+37.5,96.5,8.0,3.2,17.5,3.0,3.86,96.6,High Achievers
+4.0,57.3,4.5,6.4,5.0,7.9,2.25,72.0,At-Risk / Distracted
+28.2,88.7,9.0,2.6,13.9,3.2,3.77,94.9,High Achievers
+16.3,77.5,7.1,4.5,5.5,7.2,3.18,71.1,Balanced Mainstream
+17.9,70.1,7.7,4.3,10.6,3.0,3.22,85.6,Balanced Mainstream
+5.8,69.0,6.2,9.4,3.8,8.9,1.5,56.3,At-Risk / Distracted
+23.2,80.8,7.7,5.1,2.5,5.4,3.01,76.1,Balanced Mainstream
+15.2,87.6,8.3,4.7,4.5,5.8,3.28,77.6,Balanced Mainstream
+22.6,85.1,5.5,4.5,6.5,4.3,3.24,78.3,Balanced Mainstream
+9.3,57.7,3.7,7.3,2.2,9.6,2.73,52.6,At-Risk / Distracted
+31.7,94.3,7.1,2.4,14.2,4.8,3.75,95.9,High Achievers
+21.7,85.9,7.6,5.1,8.5,4.1,2.98,65.0,Balanced Mainstream
+26.9,99.3,8.0,2.0,14.5,4.6,3.78,90.2,High Achievers
+18.5,82.7,6.9,4.0,3.3,5.8,2.7,92.0,Balanced Mainstream
+29.3,92.4,6.0,2.5,9.8,1.6,3.64,94.2,High Achievers
+14.8,72.1,5.5,3.0,9.5,4.3,3.38,82.5,Balanced Mainstream
+35.5,92.7,8.0,1.7,12.7,3.6,3.72,95.1,High Achievers
+9.2,60.3,3.5,10.0,4.9,7.7,2.76,69.3,At-Risk / Distracted
+16.7,70.1,9.0,4.4,9.4,8.0,3.23,76.1,Balanced Mainstream
+28.8,94.0,8.3,2.7,14.3,3.1,3.7,95.0,High Achievers
+30.9,88.9,6.9,1.0,12.4,3.5,4.0,100.0,High Achievers
+12.9,74.8,7.9,4.8,3.4,4.3,3.47,73.0,Balanced Mainstream
+13.9,81.5,6.9,5.9,7.9,6.1,3.0,77.2,Balanced Mainstream
+25.0,98.7,7.4,2.3,12.1,3.8,3.7,92.9,High Achievers
+23.0,98.7,6.9,2.7,10.2,5.5,3.99,93.1,High Achievers
+20.9,88.6,8.7,3.5,11.3,2.2,3.86,96.8,High Achievers
+17.4,81.0,7.7,3.2,3.7,4.6,3.49,89.9,Balanced Mainstream
+23.9,92.5,7.6,2.1,11.1,2.6,3.71,94.8,High Achievers
+11.4,67.2,5.7,8.4,5.5,9.0,2.19,59.0,At-Risk / Distracted
+17.4,79.4,8.7,4.5,4.8,4.7,2.95,73.1,Balanced Mainstream
+7.1,48.7,6.4,6.5,6.0,8.9,1.76,65.5,At-Risk / Distracted
+17.3,67.2,7.6,5.3,5.1,5.3,3.19,71.6,Balanced Mainstream
+24.5,88.1,7.5,2.5,9.2,3.0,3.42,100.0,High Achievers
+27.9,98.2,7.6,2.0,8.8,3.9,3.68,93.5,High Achievers
+17.8,86.9,5.9,2.9,8.4,5.5,3.32,75.8,Balanced Mainstream
+15.2,86.4,8.1,4.8,2.0,4.5,3.65,69.2,Balanced Mainstream
+26.9,90.8,7.5,2.9,13.3,2.5,3.76,93.9,High Achievers
+6.8,65.5,7.0,7.5,1.6,7.6,2.11,49.2,At-Risk / Distracted
+5.9,45.6,6.1,6.4,4.6,8.0,2.01,53.1,At-Risk / Distracted
+17.4,87.8,7.1,3.3,10.8,5.6,2.87,78.9,Balanced Mainstream
+26.5,84.5,8.0,3.0,8.4,3.6,4.0,91.1,High Achievers
+26.4,86.2,6.0,1.3,12.1,2.3,3.99,89.4,High Achievers
+15.9,81.7,6.9,3.5,7.8,4.9,3.23,83.2,Balanced Mainstream
+29.3,94.2,8.3,2.4,12.6,5.8,3.96,96.8,High Achievers
+11.5,57.1,5.0,7.7,0.6,8.0,2.74,72.0,At-Risk / Distracted
+8.8,59.1,6.8,7.7,2.9,8.4,2.48,57.0,At-Risk / Distracted
+23.7,78.0,6.5,6.5,9.6,5.5,2.89,74.4,Balanced Mainstream
+24.4,90.7,8.9,1.2,9.4,1.6,3.78,98.9,High Achievers
+17.1,78.7,8.6,2.6,11.1,5.8,3.31,72.7,Balanced Mainstream
+17.1,74.1,7.1,3.4,7.3,4.0,3.56,74.0,Balanced Mainstream
+23.0,87.3,8.1,3.8,8.3,6.3,3.25,79.6,Balanced Mainstream
+22.1,67.2,6.8,4.1,10.7,5.8,3.28,78.2,Balanced Mainstream
+9.0,53.2,6.2,6.5,2.3,7.9,2.0,64.3,At-Risk / Distracted
+29.0,87.8,6.4,3.6,11.3,6.5,3.79,98.2,High Achievers
+30.1,94.6,7.6,3.9,12.2,5.7,4.0,92.7,High Achievers
+11.2,51.7,4.2,8.4,0.4,9.3,2.1,56.0,At-Risk / Distracted
+29.1,93.2,9.0,2.3,13.0,3.4,3.7,94.4,High Achievers
+15.9,82.0,7.1,4.7,4.7,6.2,3.02,86.8,Balanced Mainstream
+6.0,72.0,4.3,5.8,1.6,7.0,1.5,56.3,At-Risk / Distracted
+22.4,83.7,7.0,3.4,13.3,3.4,3.84,100.0,High Achievers
+18.1,87.2,6.9,6.4,2.8,5.3,3.47,77.0,Balanced Mainstream
+19.0,70.2,6.6,3.1,5.6,5.6,3.38,86.6,Balanced Mainstream
+18.0,75.5,6.1,4.6,11.4,3.9,3.31,73.1,Balanced Mainstream
+21.1,76.2,7.2,5.5,2.0,6.3,2.8,80.0,Balanced Mainstream
+23.1,91.5,7.7,2.7,18.4,5.7,3.65,94.3,High Achievers
+10.5,60.2,6.6,5.6,4.9,7.2,2.18,37.7,At-Risk / Distracted
+11.4,58.1,5.5,7.1,5.0,5.5,2.46,56.0,At-Risk / Distracted
+15.0,59.5,5.9,6.7,7.4,7.1,1.95,69.8,At-Risk / Distracted
+21.7,78.6,7.1,5.1,10.2,7.0,3.02,79.7,Balanced Mainstream
+20.8,87.3,6.2,4.0,7.2,7.4,2.95,92.0,Balanced Mainstream
+23.9,74.3,5.6,5.1,6.5,7.3,3.16,75.6,Balanced Mainstream
+23.4,93.7,6.5,2.7,13.7,2.1,3.8,90.7,High Achievers
+30.9,91.0,6.2,2.1,11.4,3.1,3.74,91.2,High Achievers
+26.8,88.8,7.9,2.5,10.0,3.8,3.97,98.8,High Achievers
+5.7,71.1,5.5,7.0,4.6,6.8,2.05,56.7,At-Risk / Distracted
+19.4,76.9,7.6,2.6,4.3,8.0,3.21,66.9,Balanced Mainstream
+8.5,56.9,6.3,5.0,4.9,8.9,2.02,55.5,At-Risk / Distracted
+10.3,44.1,4.4,6.5,0.0,7.0,2.12,30.0,At-Risk / Distracted
+29.0,89.9,6.7,2.1,10.3,3.9,3.71,90.6,High Achievers
+30.1,88.6,7.2,2.3,6.7,2.6,3.78,91.8,High Achievers
+24.0,65.0,9.0,5.0,3.2,6.4,3.28,84.3,Balanced Mainstream
+19.9,89.9,7.9,4.4,9.2,7.1,3.55,78.1,Balanced Mainstream
+14.5,82.0,7.2,2.5,12.2,7.5,3.1,83.6,Balanced Mainstream
+29.1,90.8,8.1,2.6,12.8,4.3,3.69,91.5,High Achievers
+26.0,94.7,7.8,2.6,11.6,5.0,3.76,92.9,High Achievers
+17.3,67.5,5.5,3.7,8.0,6.1,3.09,77.6,Balanced Mainstream
+26.3,90.4,7.0,3.3,6.7,5.1,3.68,95.9,High Achievers
+15.7,85.0,5.5,5.9,9.1,6.1,3.08,65.0,Balanced Mainstream
+6.8,50.3,3.5,7.4,3.5,10.0,2.7,50.0,At-Risk / Distracted
+26.4,92.0,7.8,2.4,13.4,4.2,3.92,100.0,High Achievers
+29.1,89.0,8.4,2.7,8.1,6.5,3.72,95.9,High Achievers
+19.9,77.7,6.0,4.7,6.7,4.4,3.05,75.4,Balanced Mainstream
+18.4,72.6,6.2,6.0,10.1,5.3,2.77,65.0,Balanced Mainstream
+30.2,91.5,7.6,2.2,14.0,4.0,3.65,89.0,High Achievers
+18.5,85.0,6.1,4.8,4.7,6.3,3.28,82.8,Balanced Mainstream
+6.9,57.3,6.6,7.4,6.4,10.0,2.08,43.3,At-Risk / Distracted
+23.2,74.6,7.3,4.2,12.3,5.1,3.31,80.2,Balanced Mainstream
+13.8,84.3,5.5,3.5,10.3,3.6,3.0,65.0,Balanced Mainstream
+16.9,81.1,6.1,4.1,11.6,8.0,3.34,83.1,Balanced Mainstream
+7.4,62.4,7.0,5.0,4.8,7.8,2.31,39.6,At-Risk / Distracted
+18.2,80.1,7.4,2.6,2.2,5.5,3.09,79.4,Balanced Mainstream
+8.4,65.6,5.8,5.7,2.2,7.9,2.29,57.1,At-Risk / Distracted
+25.5,92.9,7.3,1.6,8.3,4.1,3.65,100.0,High Achievers
+5.1,61.5,5.5,6.1,2.7,9.4,1.96,62.0,At-Risk / Distracted
+29.7,87.9,7.6,3.4,13.2,5.1,4.0,93.5,High Achievers
+9.6,51.7,5.3,6.3,3.2,8.3,2.07,52.2,At-Risk / Distracted
+25.1,82.8,7.1,2.9,17.1,3.1,3.4,93.3,High Achievers
+24.5,94.7,7.6,3.0,10.0,5.3,3.48,94.2,High Achievers
+14.6,78.0,6.1,6.4,7.8,4.5,3.46,83.6,Balanced Mainstream
+29.2,89.1,7.3,2.5,12.7,4.4,3.95,94.6,High Achievers
+8.9,57.5,6.3,7.1,0.0,7.9,2.75,60.8,At-Risk / Distracted
+11.7,44.8,5.7,6.7,3.8,10.0,2.39,37.3,At-Risk / Distracted
+20.0,81.9,7.5,4.9,9.8,3.5,3.08,77.8,Balanced Mainstream
+14.7,51.2,3.5,5.4,5.1,7.1,2.02,52.6,At-Risk / Distracted
+19.1,65.1,6.7,5.2,8.5,6.5,2.99,79.0,Balanced Mainstream
+23.7,100.0,8.3,1.2,10.8,4.4,3.46,94.8,High Achievers
+19.2,81.4,6.8,5.5,8.0,5.5,2.84,82.4,Balanced Mainstream
+12.7,60.5,6.7,6.3,4.7,8.8,2.42,57.9,At-Risk / Distracted
+31.8,84.8,8.7,1.6,6.1,4.8,3.83,97.3,High Achievers
+24.0,96.6,6.7,2.1,12.1,5.8,3.64,90.9,High Achievers
+6.1,47.9,5.0,6.0,0.0,7.1,1.98,67.2,At-Risk / Distracted
+20.8,80.6,5.7,4.3,9.5,4.7,3.45,76.5,Balanced Mainstream
+6.3,67.8,5.1,8.6,3.6,8.7,1.86,63.8,At-Risk / Distracted
+20.6,84.1,6.3,3.2,7.8,5.6,3.35,76.4,Balanced Mainstream
+30.4,88.4,7.3,2.8,11.2,5.7,3.73,98.0,High Achievers
+21.1,90.7,7.6,3.1,10.3,2.9,3.82,100.0,High Achievers
+4.9,66.5,5.7,7.8,4.6,7.3,2.48,50.9,At-Risk / Distracted
+18.9,80.6,5.5,3.8,2.0,5.4,3.29,92.0,Balanced Mainstream
+17.3,83.3,6.8,4.4,8.7,5.2,3.33,66.7,Balanced Mainstream
+6.0,56.1,5.1,7.1,6.6,7.8,2.66,51.6,At-Risk / Distracted
+7.5,75.0,3.9,5.9,3.1,7.3,2.2,72.0,At-Risk / Distracted
+17.7,82.2,6.9,5.5,4.7,4.0,3.03,83.7,Balanced Mainstream
+9.2,59.1,4.0,6.5,6.9,8.6,2.46,51.0,At-Risk / Distracted
+28.6,98.1,6.6,3.1,10.9,3.7,3.85,92.1,High Achievers
+6.8,43.4,5.1,7.2,4.8,9.5,2.36,46.0,At-Risk / Distracted
+8.5,71.1,6.0,7.2,5.6,9.2,2.78,50.9,At-Risk / Distracted
+14.4,75.3,7.1,5.1,9.0,5.7,3.29,70.5,Balanced Mainstream
+12.4,54.7,6.1,8.2,0.0,8.8,1.82,65.2,At-Risk / Distracted
+12.9,70.5,4.9,7.7,4.2,10.0,2.67,53.3,At-Risk / Distracted
+17.2,77.5,5.9,5.3,11.2,5.3,3.01,89.5,Balanced Mainstream
+8.3,64.2,6.9,7.1,1.3,7.8,2.15,51.4,At-Risk / Distracted
+32.1,89.2,9.5,3.4,12.4,1.0,3.88,99.3,High Achievers
+9.2,56.5,5.1,6.2,1.8,6.3,2.52,62.0,At-Risk / Distracted
+25.6,88.1,6.7,2.9,13.6,3.7,3.66,89.9,High Achievers
+11.6,48.5,6.4,6.1,4.3,7.7,2.9,48.9,At-Risk / Distracted
+11.3,65.3,3.7,8.5,2.2,8.2,2.46,63.2,At-Risk / Distracted
+11.1,42.4,4.9,5.0,5.1,10.0,1.5,56.1,At-Risk / Distracted
+27.9,87.5,7.4,2.7,14.5,1.6,4.0,97.1,High Achievers
+28.2,85.5,8.8,2.7,18.2,2.9,4.0,91.2,High Achievers
+16.6,81.1,8.3,5.4,6.6,7.4,2.97,88.7,Balanced Mainstream
+25.2,92.2,6.4,2.0,9.7,2.5,3.86,90.5,High Achievers
+25.0,79.6,6.9,4.7,7.7,4.3,3.15,80.3,Balanced Mainstream
+15.4,81.6,6.5,5.5,7.0,6.5,2.85,89.3,Balanced Mainstream
+6.2,55.4,6.4,8.3,5.1,8.5,2.85,55.2,At-Risk / Distracted
+19.4,85.7,6.3,5.0,9.3,5.5,3.49,66.7,Balanced Mainstream
+4.9,60.9,5.8,8.6,0.8,7.4,2.69,51.5,At-Risk / Distracted
+17.5,88.2,5.9,5.5,10.4,5.3,3.06,84.5,Balanced Mainstream
+30.6,92.3,7.5,2.8,11.4,4.9,3.73,94.1,High Achievers
+30.1,91.4,6.6,3.7,13.1,2.5,3.94,95.8,High Achievers
+29.2,95.8,6.4,2.8,6.6,3.9,3.99,100.0,High Achievers
+16.2,89.1,6.9,3.4,10.1,5.0,3.34,87.9,Balanced Mainstream
+8.6,52.8,4.1,8.5,4.1,9.7,2.76,46.5,At-Risk / Distracted
+29.8,88.5,7.1,1.7,16.5,5.8,3.68,94.4,High Achievers
+14.6,85.4,7.2,4.3,6.4,4.6,2.89,91.7,Balanced Mainstream
+6.8,58.7,4.6,6.2,5.9,7.3,2.21,51.4,At-Risk / Distracted
+9.5,58.7,4.4,7.6,5.2,8.6,2.33,45.8,At-Risk / Distracted
+26.4,94.2,6.1,3.0,7.8,3.6,3.56,93.8,High Achievers
+11.6,66.9,6.3,8.0,3.4,9.6,2.24,70.5,At-Risk / Distracted
+28.7,88.7,8.2,1.7,17.0,4.1,3.63,95.4,High Achievers
+23.6,77.5,6.9,6.2,7.3,3.8,3.03,80.4,Balanced Mainstream
+22.7,82.6,7.6,3.7,10.5,5.0,3.18,65.0,Balanced Mainstream
+31.6,93.0,8.5,1.4,19.8,1.3,3.75,90.2,High Achievers
+17.2,81.3,6.0,4.1,5.1,6.2,3.17,84.5,Balanced Mainstream
+16.2,90.1,5.5,5.6,3.8,6.6,3.65,88.1,Balanced Mainstream
+19.7,76.3,8.3,3.1,11.9,5.9,2.87,81.9,Balanced Mainstream
+22.4,84.7,7.0,4.4,14.2,3.0,3.13,73.6,Balanced Mainstream
+22.7,67.1,5.5,3.7,9.2,5.6,3.48,92.0,Balanced Mainstream
+8.9,60.0,7.0,10.0,4.3,8.3,2.28,64.5,At-Risk / Distracted
+18.0,95.5,8.7,1.4,11.4,3.6,3.86,89.7,High Achievers
+15.5,76.4,7.0,5.2,4.4,5.1,3.02,88.7,Balanced Mainstream
+29.1,88.1,7.6,2.9,15.6,2.5,3.64,91.5,High Achievers
+17.6,87.3,6.4,4.1,6.8,4.3,3.24,76.6,Balanced Mainstream
+28.9,91.7,6.8,2.0,8.5,4.2,3.53,94.6,High Achievers
+11.1,71.6,4.7,5.9,0.0,9.1,1.99,54.5,At-Risk / Distracted
+19.2,77.5,6.5,3.4,4.9,3.0,3.0,78.4,Balanced Mainstream
+11.4,66.0,5.2,7.1,6.2,9.0,1.61,52.6,At-Risk / Distracted
+15.3,75.8,6.5,3.6,6.5,5.0,3.3,82.1,Balanced Mainstream
+11.7,59.8,5.6,5.4,2.2,7.9,1.87,65.5,At-Risk / Distracted
+15.6,74.2,6.1,4.2,8.4,7.1,3.0,75.6,Balanced Mainstream
+23.4,88.2,6.9,1.2,14.8,4.7,3.8,90.3,High Achievers
+23.7,93.5,7.6,3.0,4.3,3.3,3.86,91.9,High Achievers
+17.2,78.7,8.0,3.0,6.6,4.1,2.96,86.8,Balanced Mainstream
+8.2,40.0,5.5,8.2,2.8,6.8,1.97,67.1,At-Risk / Distracted
+17.5,78.3,5.7,4.4,2.0,4.6,3.39,77.2,Balanced Mainstream
+19.9,82.7,9.0,4.7,10.0,5.3,3.1,73.7,Balanced Mainstream
+15.6,78.3,7.7,3.5,9.5,5.7,3.34,80.8,Balanced Mainstream
+18.8,71.6,8.0,3.7,11.6,4.5,3.25,82.8,Balanced Mainstream
+19.5,74.5,7.5,5.0,9.6,4.3,2.98,66.3,Balanced Mainstream
+29.7,89.4,8.2,3.3,15.9,2.9,3.91,97.7,High Achievers
+23.1,95.9,8.1,4.2,13.5,2.7,3.84,94.4,High Achievers
+9.9,65.9,5.6,5.1,2.9,9.4,1.95,59.9,At-Risk / Distracted
+16.9,88.0,5.7,5.5,10.0,5.4,3.1,77.9,Balanced Mainstream
+28.6,91.6,7.5,2.5,15.6,4.0,3.75,89.5,High Achievers
+8.8,54.4,6.7,10.0,1.0,7.6,2.0,55.8,At-Risk / Distracted
+28.5,91.2,8.0,1.0,9.1,2.7,3.67,99.9,High Achievers
+22.7,81.9,6.6,4.3,7.8,6.1,3.43,75.6,Balanced Mainstream
+26.7,96.6,8.5,1.6,10.7,2.7,3.73,95.9,High Achievers
+31.0,93.3,8.4,2.8,12.6,4.3,3.63,92.7,High Achievers
+19.7,87.2,7.5,4.0,6.7,6.8,3.07,78.8,Balanced Mainstream
+32.9,91.0,6.4,2.5,11.8,4.6,3.64,97.6,High Achievers
+29.7,92.8,8.0,4.2,10.2,3.9,3.93,91.6,High Achievers
+31.8,86.4,7.6,4.2,15.6,4.3,3.68,93.7,High Achievers
+14.3,73.2,5.7,4.6,2.0,3.0,3.19,71.1,Balanced Mainstream
+26.3,94.3,7.7,1.6,10.4,4.7,3.8,93.3,High Achievers
+19.0,78.4,6.9,3.8,11.0,5.8,3.28,69.9,Balanced Mainstream
+4.7,48.1,5.9,7.5,5.0,8.7,2.17,53.4,At-Risk / Distracted
+6.8,61.1,4.5,7.7,4.3,7.5,2.41,54.7,At-Risk / Distracted
+8.6,59.3,3.9,5.8,5.8,7.8,2.78,55.8,At-Risk / Distracted
+8.2,60.7,5.3,5.8,0.0,8.5,1.96,47.6,At-Risk / Distracted
+7.6,48.6,3.9,9.4,2.3,8.5,2.12,40.1,At-Risk / Distracted
+26.2,85.0,6.9,1.7,13.8,4.5,4.0,98.5,High Achievers
+19.0,85.4,7.4,4.6,7.1,5.6,3.45,74.2,Balanced Mainstream
+17.0,82.8,7.2,5.8,5.1,5.2,3.19,79.1,Balanced Mainstream
+5.4,55.2,4.5,8.0,6.7,9.4,2.06,56.7,At-Risk / Distracted
+9.6,57.1,4.9,7.2,7.6,6.5,2.59,63.0,At-Risk / Distracted
+17.1,89.0,6.9,4.9,2.0,8.0,3.65,76.0,Balanced Mainstream
+5.2,62.7,3.5,8.6,0.8,8.6,2.48,59.9,At-Risk / Distracted
+28.3,95.0,8.4,3.3,13.5,3.0,3.61,91.1,High Achievers
+19.4,84.3,6.8,5.9,13.8,6.3,2.99,85.0,Balanced Mainstream
+7.5,54.6,4.3,5.7,3.3,6.4,2.47,55.0,At-Risk / Distracted
+6.6,75.0,5.6,6.9,4.9,9.3,2.51,62.3,At-Risk / Distracted
+9.2,53.5,5.1,6.1,3.0,9.2,2.71,58.9,At-Risk / Distracted
+10.1,58.2,5.9,7.2,3.6,8.0,2.24,59.2,At-Risk / Distracted
+23.9,74.0,8.9,4.1,11.5,3.7,3.11,88.9,Balanced Mainstream
+12.8,58.6,4.5,5.6,6.2,8.7,2.9,72.0,At-Risk / Distracted
+8.9,71.3,6.8,8.2,4.1,10.0,2.86,66.8,At-Risk / Distracted
+16.8,76.4,6.2,5.7,6.6,4.6,3.06,92.0,Balanced Mainstream
+8.8,61.0,5.5,9.5,3.1,7.0,2.31,49.1,At-Risk / Distracted
+21.8,77.6,6.5,4.7,10.6,5.3,2.91,86.0,Balanced Mainstream
+23.0,88.0,7.8,3.0,13.2,3.3,3.78,89.0,High Achievers
+7.8,59.2,6.5,6.5,0.0,6.4,2.05,57.1,At-Risk / Distracted
+14.2,83.6,6.4,5.1,8.6,5.0,2.94,67.8,Balanced Mainstream
+16.2,87.0,7.8,5.0,5.3,3.0,3.17,77.3,Balanced Mainstream
+28.2,85.9,7.1,4.2,16.2,4.6,3.9,98.1,High Achievers
+16.3,92.0,7.8,6.1,8.6,3.5,3.41,85.4,Balanced Mainstream
+28.2,91.7,6.7,3.8,14.6,3.5,3.87,89.7,High Achievers
+8.1,56.6,5.0,5.6,4.9,7.7,2.39,61.5,At-Risk / Distracted
+18.1,80.7,8.1,4.9,8.8,6.8,3.44,76.4,Balanced Mainstream
+15.8,84.5,7.9,4.4,7.1,4.6,3.25,81.1,Balanced Mainstream
+13.9,79.6,8.8,4.7,4.8,5.1,2.9,83.3,Balanced Mainstream
+8.1,43.8,4.3,8.8,6.9,8.5,2.34,50.5,At-Risk / Distracted
+8.6,58.9,6.7,9.4,0.6,9.1,1.99,60.9,At-Risk / Distracted
+25.7,87.2,6.9,2.9,10.3,3.1,3.88,93.8,High Achievers
+9.2,55.1,6.0,6.7,5.9,7.1,1.87,55.5,At-Risk / Distracted
+17.2,74.9,7.1,3.6,4.5,4.3,3.1,84.7,Balanced Mainstream
+19.0,74.7,6.0,5.8,6.6,7.5,3.0,84.8,Balanced Mainstream
+19.2,77.8,7.8,4.4,9.2,6.5,3.23,80.3,Balanced Mainstream
+19.4,75.1,6.3,4.0,8.1,4.0,3.18,79.6,Balanced Mainstream
+5.3,67.0,6.3,7.2,6.2,8.6,1.9,42.9,At-Risk / Distracted
+16.4,88.6,7.0,4.6,5.5,5.0,3.11,92.0,Balanced Mainstream
+19.5,77.3,7.5,5.2,7.7,6.6,3.1,86.3,Balanced Mainstream
+29.6,93.6,7.1,3.3,15.9,5.4,3.84,88.8,High Achievers
+18.7,72.8,6.0,2.5,9.9,5.4,3.06,86.0,Balanced Mainstream
+22.0,77.0,7.8,2.5,10.3,5.6,3.14,82.7,Balanced Mainstream
+19.7,73.4,6.8,6.2,9.5,5.8,3.18,84.7,Balanced Mainstream
+33.6,94.5,7.1,3.2,17.2,1.7,3.58,96.2,High Achievers
+17.3,79.3,6.7,3.3,6.2,5.8,2.82,82.3,Balanced Mainstream
+16.4,85.3,8.1,3.5,5.7,5.8,3.41,74.5,Balanced Mainstream
+26.3,88.9,7.1,3.8,8.9,2.4,3.4,95.0,High Achievers
+13.7,55.0,3.8,6.4,1.8,9.2,2.6,42.5,At-Risk / Distracted
+9.5,68.8,5.2,5.5,4.0,7.1,2.38,56.1,At-Risk / Distracted
+17.1,77.5,7.1,4.2,4.7,4.5,2.85,74.6,Balanced Mainstream
+17.3,90.3,8.6,4.7,14.6,7.0,3.1,78.1,Balanced Mainstream
+17.4,74.9,5.6,3.9,10.5,8.0,3.42,72.7,Balanced Mainstream
+20.6,91.0,7.5,4.1,10.3,8.0,3.13,77.5,Balanced Mainstream
+9.1,48.7,5.5,9.7,4.1,8.7,2.43,51.8,At-Risk / Distracted
+13.0,70.8,4.5,7.1,2.7,8.4,2.0,57.8,At-Risk / Distracted
+10.1,70.7,7.0,7.5,0.0,9.9,2.13,54.4,At-Risk / Distracted
+18.4,77.5,7.9,5.6,5.3,7.2,2.86,77.3,Balanced Mainstream
+11.7,58.1,3.5,9.2,2.7,9.1,1.99,47.3,At-Risk / Distracted
+11.1,69.0,4.5,9.2,4.1,8.5,1.85,56.7,At-Risk / Distracted
+17.1,68.7,5.9,3.5,9.8,5.4,3.09,87.0,Balanced Mainstream
+6.1,56.5,4.7,7.3,8.0,7.4,1.7,47.0,At-Risk / Distracted
+14.7,72.2,7.6,2.5,4.5,4.9,2.74,65.0,Balanced Mainstream
+9.3,68.0,5.2,9.4,6.5,9.0,2.23,72.0,At-Risk / Distracted
+13.3,87.9,6.4,4.2,10.3,5.8,2.6,80.2,Balanced Mainstream
+8.0,65.4,4.8,8.9,2.4,7.8,2.41,65.7,At-Risk / Distracted
+26.2,92.6,8.1,1.6,8.0,4.3,3.84,100.0,High Achievers
+29.8,94.1,6.6,2.4,12.5,3.6,3.72,96.7,High Achievers
+16.9,81.4,7.9,4.0,9.3,6.8,2.6,68.3,Balanced Mainstream
+30.3,87.2,8.1,2.2,12.6,4.9,3.83,95.7,High Achievers
+19.2,75.6,6.4,4.9,5.3,4.8,3.2,82.2,Balanced Mainstream
+23.7,91.4,6.2,2.1,16.9,1.6,3.85,93.0,High Achievers
+23.4,69.1,7.3,2.8,3.9,4.5,2.89,68.6,Balanced Mainstream
+24.9,90.9,8.1,2.5,11.5,3.2,3.89,96.2,High Achievers
+17.8,74.3,7.1,4.4,7.8,6.4,3.39,73.7,Balanced Mainstream
+7.8,44.5,4.1,8.4,0.0,9.5,1.53,56.5,At-Risk / Distracted
+6.8,47.6,5.4,6.8,3.2,8.0,2.03,47.0,At-Risk / Distracted
+9.2,70.2,4.6,7.8,3.4,6.9,1.88,55.6,At-Risk / Distracted
+4.0,66.3,5.7,5.0,5.0,6.4,2.47,58.7,At-Risk / Distracted
+17.2,85.3,7.1,3.9,10.5,4.2,3.2,82.8,Balanced Mainstream
+22.9,90.1,7.3,2.3,11.7,2.3,3.74,92.7,High Achievers
+15.2,72.7,8.2,4.7,11.5,5.7,2.92,74.1,Balanced Mainstream
+25.2,95.3,7.5,2.3,14.0,3.4,3.7,97.4,High Achievers
+22.4,87.7,7.3,5.8,7.3,3.8,3.46,73.0,Balanced Mainstream
+15.0,79.2,5.7,3.8,10.5,6.0,3.26,75.8,Balanced Mainstream
+19.8,80.1,7.5,5.1,6.2,6.1,3.05,70.8,Balanced Mainstream
+15.0,79.4,8.7,3.1,8.9,6.4,3.46,80.6,Balanced Mainstream
+21.1,86.4,9.0,5.0,8.9,5.1,3.44,92.0,Balanced Mainstream
+9.1,66.7,4.8,6.4,2.4,8.6,2.75,60.3,At-Risk / Distracted
+29.8,89.6,7.7,3.0,7.7,4.3,3.8,97.1,High Achievers
+16.5,83.8,6.9,5.5,3.5,5.5,3.29,65.0,Balanced Mainstream
+9.3,50.5,5.3,7.0,5.1,8.3,2.62,55.7,At-Risk / Distracted
+17.2,65.0,8.5,4.0,8.4,4.2,3.07,91.0,Balanced Mainstream
+14.4,60.6,6.9,9.8,3.4,9.1,2.87,72.0,At-Risk / Distracted
+9.6,50.6,3.5,10.0,1.7,7.3,2.6,49.1,At-Risk / Distracted
+27.2,88.1,8.2,2.5,12.8,3.7,3.5,92.8,High Achievers
+27.2,91.9,7.8,2.7,12.1,3.3,3.53,90.8,High Achievers
+8.6,67.7,3.5,9.2,6.1,8.4,1.5,61.2,At-Risk / Distracted
+18.1,92.0,6.0,4.4,2.5,5.4,2.94,70.2,Balanced Mainstream
+11.2,56.3,4.7,5.9,2.1,6.6,1.94,41.6,At-Risk / Distracted
+19.5,77.2,6.8,3.5,6.2,5.4,2.96,77.7,Balanced Mainstream
+24.7,76.2,6.6,4.1,2.0,5.6,2.84,83.0,Balanced Mainstream
+16.9,86.3,7.7,2.5,5.4,3.5,3.08,92.0,Balanced Mainstream
+23.1,88.1,7.6,5.0,11.8,5.6,3.0,75.5,Balanced Mainstream
+14.9,91.5,8.2,5.8,10.4,6.1,3.16,65.0,Balanced Mainstream
+28.0,91.5,8.2,2.0,12.8,3.5,3.88,92.8,High Achievers
+9.9,44.4,4.9,6.2,3.8,8.7,2.55,53.6,At-Risk / Distracted
+17.8,80.8,8.1,4.8,5.8,6.7,3.15,84.4,Balanced Mainstream
+16.4,77.9,7.2,5.3,9.6,7.2,3.13,88.4,Balanced Mainstream
+25.0,85.6,7.7,3.1,6.1,3.7,3.44,87.1,Balanced Mainstream
+16.1,78.3,7.0,6.5,5.4,6.1,3.36,89.7,Balanced Mainstream
+31.7,86.4,7.5,1.9,9.7,3.9,3.67,92.1,High Achievers
+28.0,92.3,7.4,1.3,11.7,3.9,3.94,97.4,High Achievers
+7.5,60.5,4.4,7.0,4.1,9.0,1.53,46.5,At-Risk / Distracted
+8.9,59.6,5.5,6.9,5.2,9.4,2.31,51.7,At-Risk / Distracted
+29.3,95.7,8.3,3.3,8.9,3.9,3.7,98.7,High Achievers
+24.8,98.0,8.3,2.1,12.4,3.1,4.0,90.8,High Achievers
+29.3,95.2,7.4,2.8,11.6,5.4,4.0,98.9,High Achievers
+9.8,75.0,3.6,7.4,3.4,9.1,2.63,43.1,At-Risk / Distracted
+25.4,94.6,6.4,2.8,12.9,3.2,3.92,94.0,High Achievers
+17.8,78.8,5.5,3.7,9.8,4.7,3.38,80.7,Balanced Mainstream
+15.0,59.3,4.8,5.0,2.4,9.1,2.31,52.4,At-Risk / Distracted
+14.0,89.5,7.5,5.7,7.8,7.4,3.12,74.3,Balanced Mainstream
+29.0,95.3,8.0,2.9,7.4,3.9,3.73,98.1,High Achievers
+17.3,69.1,5.7,4.6,8.5,6.7,3.02,67.9,Balanced Mainstream
+16.5,81.7,6.9,4.8,5.8,8.0,3.11,67.7,Balanced Mainstream
+15.9,77.2,6.2,3.8,6.7,6.1,3.14,76.1,Balanced Mainstream
+17.9,79.4,9.0,2.9,6.2,5.6,3.18,69.5,Balanced Mainstream
+21.6,82.6,6.8,4.2,11.2,4.8,3.32,79.9,Balanced Mainstream
+30.8,85.2,8.8,2.7,10.8,6.0,3.96,93.6,High Achievers
+24.1,91.6,7.5,2.7,13.6,1.0,3.92,96.7,High Achievers
+13.7,77.2,6.9,4.7,6.4,5.3,3.65,92.0,Balanced Mainstream
+14.5,68.7,7.2,3.9,7.8,8.0,3.59,87.6,Balanced Mainstream
+28.3,96.2,7.1,3.0,8.4,3.6,3.97,88.5,High Achievers
+5.4,68.3,4.4,7.6,3.4,6.0,1.8,46.1,At-Risk / Distracted
+20.1,72.4,7.5,4.1,12.1,8.0,3.21,92.0,Balanced Mainstream
+9.7,61.1,4.3,6.5,3.6,8.2,2.39,52.5,At-Risk / Distracted
+7.8,58.7,6.6,7.8,0.9,7.0,2.16,48.0,At-Risk / Distracted
+30.8,94.8,6.9,2.4,12.5,4.4,4.0,100.0,High Achievers
+8.1,50.1,5.0,6.2,2.1,8.4,2.59,56.4,At-Risk / Distracted
+22.0,97.2,9.5,2.4,11.1,3.4,3.76,97.6,High Achievers
+34.5,91.6,7.9,2.5,10.4,3.7,3.48,98.1,High Achievers
+30.6,88.7,7.2,1.5,10.9,3.5,3.78,95.6,High Achievers
+17.9,76.5,7.5,3.9,9.0,6.3,2.78,80.1,Balanced Mainstream
+20.1,85.9,6.3,5.0,9.1,5.5,3.15,82.6,Balanced Mainstream
+27.7,87.7,7.9,2.7,16.7,3.7,3.88,94.1,High Achievers
+11.7,62.5,4.9,9.2,5.0,9.6,2.09,60.5,At-Risk / Distracted
+25.3,94.0,7.7,4.4,12.2,3.9,3.76,97.9,High Achievers
+12.0,71.7,3.5,6.7,2.7,7.6,2.24,47.9,At-Risk / Distracted
+25.6,95.4,7.3,1.5,6.0,2.4,3.62,95.1,High Achievers
+7.0,67.3,4.6,6.8,3.9,8.8,1.69,49.8,At-Risk / Distracted
+20.5,88.3,6.9,3.6,7.0,4.4,3.33,65.0,Balanced Mainstream
+16.2,73.1,8.4,2.5,3.1,4.6,3.03,83.3,Balanced Mainstream
+12.2,83.9,6.9,3.8,7.7,5.8,2.77,75.9,Balanced Mainstream
+17.8,74.5,6.4,4.3,9.1,5.7,2.94,83.1,Balanced Mainstream
+25.6,90.0,8.0,2.9,18.0,2.6,3.79,89.9,High Achievers
+25.0,81.8,8.5,5.6,10.8,5.9,3.28,80.2,Balanced Mainstream
+31.2,91.4,7.1,1.0,17.1,4.3,3.67,97.2,High Achievers
+21.7,87.0,7.5,4.5,6.0,5.5,3.43,91.6,Balanced Mainstream
+18.3,88.0,8.9,4.7,5.5,3.2,2.96,72.7,Balanced Mainstream
+19.6,72.0,9.0,4.2,10.1,3.6,2.87,65.4,Balanced Mainstream
+10.3,68.0,4.2,8.1,3.3,7.7,2.75,57.9,At-Risk / Distracted
+8.3,65.7,5.9,7.4,1.6,9.7,1.65,56.4,At-Risk / Distracted
+10.2,55.9,4.0,9.5,6.1,9.3,1.97,42.3,At-Risk / Distracted
+28.5,90.6,9.1,3.2,13.3,4.2,3.94,99.3,High Achievers
+30.0,99.6,7.1,1.0,13.6,4.1,3.78,91.5,High Achievers
+30.8,92.1,7.6,1.0,13.7,3.4,3.84,96.4,High Achievers
+20.6,82.2,7.0,5.1,8.9,6.6,3.37,81.0,Balanced Mainstream
+16.9,83.3,5.5,4.2,9.3,7.3,3.12,83.4,Balanced Mainstream
+20.9,84.7,7.6,5.0,3.9,5.2,3.02,80.6,Balanced Mainstream
+19.0,83.8,6.1,4.6,12.9,5.9,3.19,75.0,Balanced Mainstream
+22.4,81.1,8.0,5.5,2.0,5.6,2.78,65.0,Balanced Mainstream
+5.2,59.9,3.9,9.4,1.6,8.1,2.26,62.7,At-Risk / Distracted
+10.0,65.9,5.1,7.2,0.2,8.4,1.69,53.2,At-Risk / Distracted
+29.4,94.5,8.0,2.8,9.3,2.4,3.87,96.7,High Achievers
+13.9,81.5,7.1,3.9,4.5,5.8,2.78,84.8,Balanced Mainstream
+12.2,77.6,7.1,4.2,9.8,6.3,3.58,81.6,Balanced Mainstream
+27.5,89.8,6.8,2.2,10.7,2.8,3.79,91.8,High Achievers
+11.9,57.8,4.3,6.6,7.7,8.1,2.44,72.0,At-Risk / Distracted
+8.5,52.9,5.3,6.9,4.0,7.6,2.11,54.3,At-Risk / Distracted
+15.3,78.3,6.2,3.1,13.5,7.1,3.18,90.1,Balanced Mainstream
+27.2,88.6,8.1,3.1,12.4,3.7,3.94,94.3,High Achievers
+24.7,90.1,7.3,1.7,9.7,3.2,3.83,100.0,High Achievers
+30.9,95.9,6.7,2.9,9.6,2.9,3.71,93.8,High Achievers
+9.3,60.7,5.5,8.2,4.3,7.5,1.97,60.4,At-Risk / Distracted
+20.7,72.8,7.5,5.6,9.6,5.7,2.96,76.4,Balanced Mainstream
+19.8,74.9,8.4,4.7,10.7,6.9,3.25,89.4,Balanced Mainstream
+15.4,83.3,5.5,6.1,9.2,5.2,2.95,77.6,Balanced Mainstream
+15.7,78.9,6.5,4.1,8.9,8.0,3.02,78.8,Balanced Mainstream
+31.4,94.0,8.4,1.0,19.5,1.0,3.8,96.6,High Achievers
+13.2,82.3,8.8,5.8,7.8,4.9,2.99,90.8,Balanced Mainstream
+8.1,49.7,4.3,5.8,0.0,8.3,2.9,53.9,At-Risk / Distracted
+19.4,82.3,8.0,4.4,6.3,4.0,3.1,65.0,Balanced Mainstream
+18.8,92.0,8.6,4.2,3.4,5.3,3.18,67.8,Balanced Mainstream
+11.7,67.3,4.9,8.2,4.1,7.1,2.61,64.4,At-Risk / Distracted
+27.6,87.5,8.0,3.6,15.5,3.3,3.74,96.5,High Achievers
+21.3,95.3,6.6,3.8,14.7,1.3,3.93,91.5,High Achievers
+18.8,78.2,7.4,4.5,9.7,5.3,3.28,84.8,Balanced Mainstream
+19.2,85.1,6.2,3.8,5.1,5.8,2.85,81.7,Balanced Mainstream
+17.9,78.6,7.1,4.9,8.6,5.5,3.2,72.9,Balanced Mainstream
+28.0,91.1,6.9,2.4,12.0,3.7,3.83,96.8,High Achievers
+30.9,94.5,7.5,1.5,11.9,2.3,3.77,88.8,High Achievers
+10.9,52.6,5.0,6.4,2.5,7.6,1.95,54.4,At-Risk / Distracted
+12.3,67.7,3.6,8.3,1.8,7.6,2.03,69.8,At-Risk / Distracted
+18.7,84.3,7.3,5.1,7.7,6.4,2.81,69.0,Balanced Mainstream
+11.2,67.7,5.4,7.2,6.7,8.6,2.66,51.0,At-Risk / Distracted
+21.3,80.4,6.0,4.6,6.2,3.2,3.55,76.0,Balanced Mainstream
+9.7,65.5,6.9,5.6,1.4,8.0,2.79,46.6,At-Risk / Distracted
+16.1,90.4,6.5,3.9,7.6,6.9,3.09,78.6,Balanced Mainstream
+9.8,49.1,5.4,6.3,6.0,8.9,2.48,61.7,At-Risk / Distracted
+31.0,97.8,7.8,2.6,8.1,4.9,3.82,93.2,High Achievers
+20.5,78.8,7.2,4.0,10.6,6.8,3.49,74.3,Balanced Mainstream
+7.1,68.8,3.5,6.1,0.0,10.0,2.55,51.8,At-Risk / Distracted
+19.8,78.2,5.5,3.5,10.5,6.5,3.17,81.5,Balanced Mainstream
+15.7,86.0,9.0,4.4,11.1,8.0,3.18,88.6,Balanced Mainstream
+22.7,95.5,6.2,2.3,9.7,3.2,3.86,100.0,High Achievers
+10.3,67.4,6.7,7.3,4.5,10.0,2.28,56.0,At-Risk / Distracted
+18.9,68.9,6.8,4.7,11.9,5.3,3.55,69.5,Balanced Mainstream
+14.7,77.7,5.7,4.2,9.9,5.8,3.35,71.5,Balanced Mainstream
+16.1,67.8,6.6,4.5,5.0,7.0,3.26,74.4,Balanced Mainstream
+20.0,81.9,8.2,3.8,6.0,4.9,3.08,80.2,Balanced Mainstream
+29.2,93.3,7.7,3.0,9.9,5.3,3.84,99.5,High Achievers
+25.0,68.8,6.3,4.2,11.0,5.4,3.05,76.9,Balanced Mainstream
+14.5,73.0,7.2,4.5,11.6,4.9,3.14,87.7,Balanced Mainstream
+14.8,75.0,4.4,7.4,0.0,8.5,1.94,44.1,At-Risk / Distracted
+15.5,74.3,7.2,2.9,7.9,4.2,3.27,71.5,Balanced Mainstream
+35.4,96.7,7.0,2.0,12.7,2.7,3.7,97.4,High Achievers
+27.2,94.4,7.9,1.7,12.9,4.2,3.81,97.7,High Achievers
+15.2,84.1,6.0,5.3,2.4,4.9,2.8,85.2,Balanced Mainstream
+20.8,77.2,5.8,3.8,10.0,5.0,3.65,92.0,Balanced Mainstream
+24.6,99.9,7.0,3.1,12.0,5.1,3.79,96.5,High Achievers
+28.7,92.9,7.1,1.1,11.6,2.8,3.89,93.7,High Achievers
+13.0,52.0,4.0,5.1,3.8,7.1,2.15,72.0,At-Risk / Distracted
+31.0,97.9,7.7,2.5,10.0,2.9,3.91,98.4,High Achievers
+20.6,88.8,6.4,4.1,8.6,6.6,2.66,84.9,Balanced Mainstream
+12.8,67.8,3.8,7.0,0.0,5.5,2.34,50.0,At-Risk / Distracted
+17.2,73.7,6.2,4.3,9.2,6.0,3.25,69.7,Balanced Mainstream
+16.6,80.9,6.8,5.7,10.5,5.6,3.26,73.1,Balanced Mainstream
+20.1,81.3,8.2,4.3,10.1,6.1,3.05,82.7,Balanced Mainstream
+11.4,64.0,5.5,6.4,3.6,7.4,2.48,65.5,At-Risk / Distracted
+20.4,87.1,8.8,4.8,5.4,5.8,2.88,79.8,Balanced Mainstream
+15.6,72.9,6.3,3.7,13.2,6.4,3.31,79.4,Balanced Mainstream
+22.6,87.3,7.7,2.3,16.6,4.1,3.62,92.6,High Achievers
+16.1,89.1,7.3,3.0,8.7,5.2,2.96,82.8,Balanced Mainstream
+9.4,58.5,5.4,8.0,1.8,8.3,2.07,72.0,At-Risk / Distracted
+27.2,97.0,7.4,3.0,13.0,2.6,3.76,96.7,High Achievers
+15.6,78.8,8.5,4.5,3.9,5.5,3.05,73.4,Balanced Mainstream
+29.2,99.5,7.2,3.2,13.5,3.1,3.86,94.1,High Achievers
+19.0,86.5,7.0,5.1,9.8,7.2,2.74,74.6,Balanced Mainstream
+19.7,66.6,7.9,4.3,3.3,5.2,3.26,92.0,Balanced Mainstream
+26.9,89.7,8.3,2.6,10.1,2.9,3.92,97.3,High Achievers
+15.0,70.9,6.6,4.4,6.4,7.1,3.42,83.2,Balanced Mainstream
+24.8,99.0,6.1,2.0,13.6,1.8,3.91,92.7,High Achievers
+19.1,73.1,7.7,3.5,7.5,4.7,2.97,76.0,Balanced Mainstream
+33.1,92.4,6.9,3.4,8.4,5.0,3.78,100.0,High Achievers
+18.6,83.6,8.1,4.4,7.4,6.4,3.33,81.0,Balanced Mainstream
+33.4,94.0,6.0,2.0,13.8,2.0,3.77,94.7,High Achievers
+34.6,87.7,6.5,3.2,12.1,3.6,3.56,100.0,High Achievers
+33.0,92.1,7.4,3.1,15.6,3.6,3.94,94.5,High Achievers
+11.6,67.2,5.9,6.2,1.5,7.4,2.33,72.0,At-Risk / Distracted
+17.1,74.2,7.9,5.0,6.1,5.1,3.65,69.5,Balanced Mainstream
+26.8,92.0,6.9,2.5,11.5,2.7,3.98,97.5,High Achievers

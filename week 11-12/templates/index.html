@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DimensionLab — PCA vs t-SNE Interactive Suite</title>
+  
+  <!-- Google Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Plotly.js CDN -->
+  <script src="https://cdn.plot.ly/plotly-2.29.1.min.js"></script>
+  
+  <style>
+    :root {
+      --bg-dark: #090d16;
+      --bg-card: rgba(18, 24, 38, 0.85);
+      --bg-card-hover: rgba(26, 34, 52, 0.95);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-glow: rgba(59, 130, 246, 0.35);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      
+      --accent-blue: #3b82f6;
+      --accent-purple: #8b5cf6;
+      --accent-emerald: #10b981;
+      --accent-red: #ef4444;
+      --accent-amber: #f59e0b;
+
+      --cohort-high: #2563eb;
+      --cohort-balanced: #059669;
+      --cohort-risk: #dc2626;
+      
+      --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+      --radius-lg: 16px;
+      --radius-md: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.12) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.1) 0px, transparent 50%);
+      background-attachment: fixed;
+      color: var(--text-main);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    header {
+      padding: 1.25rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-color);
+      background: rgba(9, 13, 22, 0.8);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      color: white;
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+    }
+
+    .brand-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      background: linear-gradient(90deg, #fff, #93c5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-subtitle {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 0.5rem;
+      background: rgba(18, 24, 38, 0.6);
+      padding: 0.35rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+    }
+
+    .nav-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .nav-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-btn.active {
+      color: #fff;
+      background: var(--accent-blue);
+      box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+    }
+
+    main {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Cards & Grids */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: var(--glass-shadow);
+      backdrop-filter: blur(12px);
+      transition: border-color 0.2s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .card-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-subtitle {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    /* Metric Badges */
+    .stat-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .stat-val {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .stat-sub {
+      font-size: 0.75rem;
+      color: var(--accent-emerald);
+    }
+
+    /* Leaderboard Table */
+    table.custom-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.9rem;
+    }
+
+    table.custom-table th {
+      background: rgba(255, 255, 255, 0.04);
+      padding: 0.85rem 1rem;
+      text-align: left;
+      font-weight: 600;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    table.custom-table td {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    table.custom-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .badge-winner {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.75rem;
+    }
+
+    /* Controls & Sliders */
+    .slider-group {
+      margin-bottom: 1.1rem;
+    }
+
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+
+    .slider-val {
+      color: var(--accent-blue);
+      font-family: monospace;
+      font-size: 0.9rem;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      height: 6px;
+      background: #1e293b;
+      border-radius: 4px;
+      outline: none;
+      -webkit-appearance: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--accent-blue);
+      cursor: pointer;
+      box-shadow: 0 0 10px var(--accent-blue);
+    }
+
+    .preset-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      color: #fff;
+      padding: 0.5rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .preset-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .prediction-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+
+    /* Report Gallery */
+    .report-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .report-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent-blue);
+    }
+
+    .report-img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-bottom: 1px solid var(--border-color);
+      background: #000;
+    }
+
+    .report-info {
+      padding: 1.25rem;
+    }
+
+    /* Plot containers */
+    .plot-container {
+      width: 100%;
+      height: 480px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo"><i class="fa-solid fa-cube"></i></div>
+      <div>
+        <div class="brand-title">DimensionLab</div>
+        <div class="brand-subtitle">PCA vs t-SNE Dimensionality Reduction Intelligence Suite</div>
+      </div>
+    </div>
+
+    <nav class="nav-tabs">
+      <button class="nav-btn active" onclick="switchTab('overview')"><i class="fa-solid fa-chart-pie"></i> Overview</button>
+      <button class="nav-btn" onclick="switchTab('projections')"><i class="fa-solid fa-braille"></i> 2D Showdown</button>
+      <button class="nav-btn" onclick="switchTab('projector')"><i class="fa-solid fa-sliders"></i> Live Projector</button>
+      <button class="nav-btn" onclick="switchTab('diagnostics')"><i class="fa-solid fa-microchip"></i> PCA Deep-Dive</button>
+      <button class="nav-btn" onclick="switchTab('gallery')"><i class="fa-solid fa-images"></i> Reports</button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Tab 1: Overview & Leaderboard -->
+    <section id="tab-overview" class="tab-content active">
+      <div class="grid-4" style="margin-bottom: 1.5rem;">
+        <div class="stat-box">
+          <div class="stat-label">Total Student Records</div>
+          <div class="stat-val" id="stat-records">1,000</div>
+          <div class="stat-sub">Synthetic Benchmark Cohort</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Original Dimensions</div>
+          <div class="stat-val" id="stat-dim">8 Features</div>
+          <div class="stat-sub">Standardized (Z-Score)</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">PCA 2D Variance Captured</div>
+          <div class="stat-val" id="stat-pca-var">82.4%</div>
+          <div class="stat-sub">PC1: 75.8% | PC2: 6.5%</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">t-SNE Silhouette Score</div>
+          <div class="stat-val" id="stat-tsne-sil">0.687</div>
+          <div class="stat-sub">Optimal Perp = 30</div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div class="card-title">
+          <span><i class="fa-solid fa-trophy" style="color: var(--accent-amber); margin-right: 0.5rem;"></i> Quantitative Tournament Benchmark Leaderboard</span>
+        </div>
+        <div class="card-subtitle">Empirical side-by-side evaluation between Linear PCA and Non-Linear t-SNE on the standardized feature matrix.</div>
+        
+        <table class="custom-table" id="leaderboard-table">
+          <thead>
+            <tr>
+              <th>Method</th>
+              <th>2D Silhouette Score</th>
+              <th>5-NN Accuracy (%)</th>
+              <th>Trustworthiness</th>
+              <th>Global Spearman &rho;</th>
+              <th>Compute Latency</th>
+              <th>Out-of-Sample</th>
+              <th>Invertible</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard-body">
+            <!-- Dynamic Injection -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">Dataset Cohort Balance</div>
+          <div class="card-subtitle">Undergraduate student distribution across 3 lifestyle tiers</div>
+          <div id="cohort-pie-plot" style="height: 320px;"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">PCA Reconstruction Error Decay</div>
+          <div class="card-subtitle">Monotonic RMSE reduction from 1 to 8 dimensions ($k=8$ is lossless)</div>
+          <div id="rmse-decay-plot" style="height: 320px;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 2: 2D Projections Showdown -->
+    <section id="tab-projections" class="tab-content">
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <div class="card-title">2D Manifold & Projection Visualizer</div>
+            <div class="card-subtitle">Compare PCA's global variance preservation against t-SNE's local neighborhood clustering.</div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted);">t-SNE Perplexity:</span>
+            <div class="nav-tabs" style="padding: 0.2rem;">
+              <button class="nav-btn" onclick="setPerplexity(5)" id="perp-5">5</button>
+              <button class="nav-btn" onclick="setPerplexity(15)" id="perp-15">15</button>
+              <button class="nav-btn active" onclick="setPerplexity(30)" id="perp-30">30</button>
+              <button class="nav-btn" onclick="setPerplexity(50)" id="perp-50">50</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">PCA 2D Projection (Linear / Global)</div>
+          <div class="card-subtitle">Preserves global variance & continuous academic gradient</div>
+          <div id="pca-scatter-plot" class="plot-container"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">t-SNE 2D Embedding (Non-Linear / Local)</div>
+          <div class="card-subtitle" id="tsne-plot-subtitle">Resolves crowding problem via Student-t heavy tails (Perp=30)</div>
+          <div id="tsne-scatter-plot" class="plot-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 3: Live Student Projector -->
+    <section id="tab-projector" class="tab-content">
+      <div class="grid-2">
+        <div class="card">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <div>
+              <div class="card-title">Student Lifestyle Parameters</div>
+              <div class="card-subtitle">Adjust sliders or load a preset profile for instant projection</div>
+            </div>
+            <div style="display: flex; gap: 0.4rem;">
+              <button class="preset-btn" onclick="loadPreset('high_achiever')">High Achiever</button>
+              <button class="preset-btn" onclick="loadPreset('balanced')">Balanced</button>
+              <button class="preset-btn" onclick="loadPreset('distracted')">Distracted</button>
+            </div>
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Study Hours (Weekly)</span>
+              <span class="slider-val" id="val-study">28.0 hrs</span>
+            </div>
+            <input type="range" id="input-study" min="4" max="38" step="0.5" value="28.0" oninput="onSliderChange()">
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Attendance Rate</span>
+              <span class="slider-val" id="val-attendance">92.0%</span>
+            </div>
+            <input type="range" id="input-attendance" min="40" max="100" step="1" value="92.0" oninput="onSliderChange()">
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Sleep Hours (Daily)</span>
+              <span class="slider-val" id="val-sleep">7.5 hrs</span>
+            </div>
+            <input type="range" id="input-sleep" min="4" max="9.5" step="0.5" value="7.5" oninput="onSliderChange()">
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Screen Time (Daily)</span>
+              <span class="slider-val" id="val-screen">2.5 hrs</span>
+            </div>
+            <input type="range" id="input-screen" min="1" max="9" step="0.5" value="2.5" oninput="onSliderChange()">
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Extracurricular Hours</span>
+              <span class="slider-val" id="val-extra">12.0 hrs</span>
+            </div>
+            <input type="range" id="input-extra" min="0" max="20" step="0.5" value="12.0" oninput="onSliderChange()">
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Stress Level (1 - 10)</span>
+              <span class="slider-val" id="val-stress">3.5</span>
+            </div>
+            <input type="range" id="input-stress" min="1" max="10" step="0.5" value="3.5" oninput="onSliderChange()">
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Prior GPA (0.0 - 4.0)</span>
+              <span class="slider-val" id="val-gpa">3.80</span>
+            </div>
+            <input type="range" id="input-gpa" min="1.5" max="4.0" step="0.05" value="3.80" oninput="onSliderChange()">
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Assignment Completion</span>
+              <span class="slider-val" id="val-assignment">95.0%</span>
+            </div>
+            <input type="range" id="input-assignment" min="30" max="100" step="1" value="95.0" oninput="onSliderChange()">
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          <div class="card">
+            <div class="card-title">Live 2D PCA Space Projection</div>
+            <div class="card-subtitle">Glowing crosshair represents your live out-of-sample student</div>
+            <div id="live-pca-scatter" style="height: 280px;"></div>
+
+            <div style="margin-top: 1rem; display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Predicted Cohort:</span>
+                <div id="prediction-pill" class="prediction-badge" style="background: rgba(37, 99, 235, 0.2); color: #60a5fa; border: 1px solid #2563eb;">
+                  <i class="fa-solid fa-graduation-cap"></i> <span id="pred-text">High Achievers</span> (<span id="pred-conf">100.0%</span>)
+                </div>
+              </div>
+              <div style="text-align: right;">
+                <span style="font-size: 0.8rem; color: var(--text-muted);">2D Coordinates:</span>
+                <div style="font-family: monospace; font-size: 1rem; font-weight: 700; color: #fff;" id="pred-coords">PC1 = +3.62, PC2 = +0.08</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">PCA Inverse Reconstruction ($\hat{\mathbf{X}} = \mathbf{Z} \mathbf{W}_2^T$)</div>
+            <div class="card-subtitle">Lossy recovery from 2D coordinates back into 8 lifestyle features</div>
+            
+            <table class="custom-table" style="font-size: 0.82rem;">
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>Original</th>
+                  <th>Reconstructed</th>
+                  <th>Absolute Error</th>
+                </tr>
+              </thead>
+              <tbody id="reconstruction-table-body">
+                <!-- Injected live -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 4: PCA Diagnostics -->
+    <section id="tab-diagnostics" class="tab-content">
+      <div class="grid-2" style="margin-bottom: 1.5rem;">
+        <div class="card">
+          <div class="card-title">PCA Scree Plot & Kaiser Rule</div>
+          <div class="card-subtitle">Eigenvalue decay with $\lambda \ge 1.0$ cutoff criterion</div>
+          <div id="scree-plot" class="plot-container"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">Cumulative Explained Variance</div>
+          <div class="card-subtitle">Variance captured as principal component count $k$ increases</div>
+          <div id="cumvar-plot" class="plot-container"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Factor Loadings Heatmap & Biplot Vectors</div>
+        <div class="card-subtitle">Pearson correlation between original features and Principal Components ($L_{jk} = v_{jk} \sqrt{\lambda_k}$)</div>
+        <div id="loadings-bar-plot" style="height: 380px;"></div>
+      </div>
+    </section>
+
+    <!-- Tab 5: Publication Reports Gallery -->
+    <section id="tab-gallery" class="tab-content">
+      <div class="grid-2" style="gap: 1.5rem;">
+        <div class="report-card">
+          <img src="/reports/01_pca_scree_and_cumulative_variance.png" class="report-img" alt="Scree Plot">
+          <div class="report-info">
+            <div class="card-title">01. Scree Plot & Cumulative Variance</div>
+            <div class="card-subtitle">Eigenvalue decay, Kaiser Rule ($\lambda \ge 1.0$), and elbow detection.</div>
+          </div>
+        </div>
+
+        <div class="report-card">
+          <img src="/reports/02_pca_biplot_and_loadings.png" class="report-img" alt="Biplot">
+          <div class="report-info">
+            <div class="card-title">02. PCA Biplot & Factor Loadings</div>
+            <div class="card-subtitle">Observations and correlation vectors across PC1 and PC2.</div>
+          </div>
+        </div>
+
+        <div class="report-card">
+          <img src="/reports/03_tsne_perplexity_exploration.png" class="report-img" alt="t-SNE Perplexity">
+          <div class="report-info">
+            <div class="card-title">03. t-SNE Perplexity Exploration</div>
+            <div class="card-subtitle">Manifold behavior across perplexity values [5, 15, 30, 50].</div>
+          </div>
+        </div>
+
+        <div class="report-card">
+          <img src="/reports/04_pca_vs_tsne_2d_projection_showdown.png" class="report-img" alt="Showdown">
+          <div class="report-info">
+            <div class="card-title">04. PCA vs t-SNE 2D Showdown</div>
+            <div class="card-subtitle">Direct visual comparison of linear projection vs non-linear manifold.</div>
+          </div>
+        </div>
+
+        <div class="report-card" style="grid-column: span 2;">
+          <img src="/reports/05_reconstruction_error_and_benchmark.png" class="report-img" style="height: 360px;" alt="Benchmark">
+          <div class="report-info">
+            <div class="card-title">05. Reconstruction RMSE & Tournament Benchmark</div>
+            <div class="card-subtitle">Information loss decay from $k=1\dots 8$ and multi-metric tournament comparison.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    // State
+    let GLOBAL_PCA = null;
+    let GLOBAL_TSNE = null;
+    let currentPerplexity = 30;
+
+    const COHORT_COLORS = {
+      'High Achievers': '#2563eb',
+      'Balanced Mainstream': '#059669',
+      'At-Risk / Distracted': '#dc2626'
+    };
+
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
+      
+      document.getElementById(`tab-${tabId}`).classList.add('active');
+      event.currentTarget.classList.add('active');
+      window.dispatchEvent(new Event('resize'));
+    }
+
+    // Load initial data
+    async function initDashboard() {
+      try {
+        const [sumRes, pcaRes, tsneRes, leadRes] = await Promise.all([
+          fetch('/api/summary').then(r => r.json()),
+          fetch('/api/pca').then(r => r.json()),
+          fetch('/api/tsne').then(r => r.json()),
+          fetch('/api/leaderboard').then(r => r.json())
+        ]);
+
+        GLOBAL_PCA = pcaRes;
+        GLOBAL_TSNE = tsneRes;
+
+        renderLeaderboard(leadRes);
+        renderCohortPie(sumRes);
+        renderRMSEPlot(pcaRes.rmse);
+        renderPCAScatter(pcaRes);
+        renderTSNEScatter(tsneRes, 30);
+        renderDiagnostics(pcaRes);
+        triggerLiveProject();
+      } catch (err) {
+        console.error("Dashboard init error:", err);
+      }
+    }
+
+    function renderLeaderboard(data) {
+      const tbody = document.getElementById('leaderboard-body');
+      tbody.innerHTML = '';
+      data.forEach(row => {
+        const tr = document.createElement('tr');
+        const isPCA = row.Method.includes('PCA');
+        tr.innerHTML = `
+          <td style="font-weight: 700; color: ${isPCA ? '#60a5fa' : '#c084fc'}">${row.Method}</td>
+          <td>${row['Silhouette Score'].toFixed(4)} ${!isPCA ? '<span class="badge-winner">Winner</span>' : ''}</td>
+          <td>${row['5-NN Accuracy (%)'].toFixed(1)}% <span class="badge-winner">100%</span></td>
+          <td>${row['Trustworthiness'].toFixed(4)} ${!isPCA ? '<span class="badge-winner">Winner</span>' : ''}</td>
+          <td>${row['Global Spearman rho'].toFixed(4)} ${isPCA ? '<span class="badge-winner">Winner</span>' : ''}</td>
+          <td>${row['Compute Latency (s)'].toFixed(3)}s ${isPCA ? '<span class="badge-winner">Fast</span>' : ''}</td>
+          <td><span style="color: ${isPCA ? '#34d399' : '#f87171'}">${row['Out-of-Sample Projection']}</span></td>
+          <td><span style="color: ${isPCA ? '#34d399' : '#f87171'}">${row['Invertible / Lossless']}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function renderCohortPie(summary) {
+      const labels = Object.keys(summary.cohort_counts);
+      const values = Object.values(summary.cohort_counts);
+      const colors = labels.map(l => COHORT_COLORS[l]);
+
+      const data = [{
+        values: values,
+        labels: labels,
+        type: 'pie',
+        hole: 0.55,
+        marker: { colors: colors },
+        textinfo: 'label+percent',
+        hoverinfo: 'label+value+percent'
+      }];
+
+      const layout = {
+        paper_bgcolor: 'transparent',
+        plot_bgcolor: 'transparent',
+        showlegend: false,
+        margin: { t: 10, b: 10, l: 10, r: 10 },
+        font: { color: '#94a3b8', family: 'Inter' }
+      };
+
+      Plotly.newPlot('cohort-pie-plot', data, layout, { responsive: true, displayModeBar: false });
+    }
+
+    function renderRMSEPlot(rmseDict) {
+      const ks = Object.keys(rmseDict);
+      const rmses = Object.values(rmseDict);
+
+      const trace = {
+        x: ks,
+        y: rmses,
+        mode: 'lines+markers',
+        line: { color: '#ef4444', width: 3 },
+        marker: { size: 8, color: '#dc2626' },
+        fill: 'tozeroy',
+        fillcolor: 'rgba(239, 68, 68, 0.1)'
+      };
+
+      const layout = {
+        paper_bgcolor: 'transparent',
+        plot_bgcolor: 'transparent',
+        margin: { t: 20, b: 40, l: 40, r: 20 },
+        xaxis: { title: 'Components Retained (k)', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        yaxis: { title: 'RMSE', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        font: { color: '#94a3b8', family: 'Inter' }
+      };
+
+      Plotly.newPlot('rmse-decay-plot', [trace], layout, { responsive: true, displayModeBar: false });
+    }
+
+    function renderPCAScatter(pcaData) {
+      const traces = {};
+      Object.keys(COHORT_COLORS).forEach(c => {
+        traces[c] = { x: [], y: [], text: [], mode: 'markers', name: c, marker: { color: COHORT_COLORS[c], size: 6, opacity: 0.75 }, type: 'scatter' };
+      });
+
+      pcaData.points.forEach(p => {
+        if (traces[p.cohort]) {
+          traces[p.cohort].x.push(p.pc1);
+          traces[p.cohort].y.push(p.pc2);
+          traces[p.cohort].text.push(`Study: ${p.study}h | GPA: ${p.gpa} | Attend: ${p.attendance}%`);
+        }
+      });
+
+      const layout = {
+        paper_bgcolor: 'transparent',
+        plot_bgcolor: 'transparent',
+        margin: { t: 20, b: 40, l: 40, r: 20 },
+        xaxis: { title: 'PC1 (Academic Success)', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        yaxis: { title: 'PC2 (Lifestyle Balance)', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        legend: { orientation: 'h', y: 1.1, x: 0.1, font: { color: '#fff' } },
+        font: { color: '#94a3b8', family: 'Inter' }
+      };
+
+      Plotly.newPlot('pca-scatter-plot', Object.values(traces), layout, { responsive: true, displayModeBar: false });
+    }
+
+    function renderTSNEScatter(tsneData, perp) {
+      const current = tsneData[String(perp)];
+      const traces = {};
+      Object.keys(COHORT_COLORS).forEach(c => {
+        traces[c] = { x: [], y: [], text: [], mode: 'markers', name: c, marker: { color: COHORT_COLORS[c], size: 6, opacity: 0.75 }, type: 'scatter' };
+      });
+
+      current.points.forEach(p => {
+        if (traces[p.cohort]) {
+          traces[p.cohort].x.push(p.x);
+          traces[p.cohort].y.push(p.y);
+          traces[p.cohort].text.push(`Study: ${p.study}h | GPA: ${p.gpa}`);
+        }
+      });
+
+      const layout = {
+        paper_bgcolor: 'transparent',
+        plot_bgcolor: 'transparent',
+        margin: { t: 20, b: 40, l: 40, r: 20 },
+        xaxis: { title: 't-SNE Dim 1', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        yaxis: { title: 't-SNE Dim 2', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        legend: { orientation: 'h', y: 1.1, x: 0.1, font: { color: '#fff' } },
+        font: { color: '#94a3b8', family: 'Inter' }
+      };
+
+      Plotly.newPlot('tsne-scatter-plot', Object.values(traces), layout, { responsive: true, displayModeBar: false });
+      document.getElementById('tsne-plot-subtitle').innerText = `KL Divergence: ${current.kl_divergence.toFixed(4)} | Latency: ${current.execution_time.toFixed(2)}s (Perp=${perp})`;
+    }
+
+    function setPerplexity(perp) {
+      currentPerplexity = perp;
+      [5, 15, 30, 50].forEach(p => {
+        const btn = document.getElementById(`perp-${p}`);
+        if (btn) btn.classList.toggle('active', p === perp);
+      });
+      renderTSNEScatter(GLOBAL_TSNE, perp);
+    }
+
+    function renderDiagnostics(pcaData) {
+      const k = [1, 2, 3, 4, 5, 6, 7, 8];
+      
+      // Scree
+      const traceScree = {
+        x: k,
+        y: pcaData.eigenvalues,
+        type: 'bar',
+        marker: { color: '#3b82f6' },
+        name: 'Eigenvalue (λ)'
+      };
+      const layoutScree = {
+        paper_bgcolor: 'transparent',
+        plot_bgcolor: 'transparent',
+        margin: { t: 20, b: 40, l: 40, r: 20 },
+        xaxis: { title: 'Principal Component Index', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        yaxis: { title: 'Eigenvalue (λ)', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        font: { color: '#94a3b8', family: 'Inter' },
+        shapes: [{
+          type: 'line',
+          x0: 0.5, x1: 8.5, y0: 1.0, y1: 1.0,
+          line: { color: '#ef4444', width: 2, dash: 'dash' }
+        }]
+      };
+      Plotly.newPlot('scree-plot', [traceScree], layoutScree, { responsive: true, displayModeBar: false });
+
+      // CumVar
+      const traceCum = {
+        x: k,
+        y: pcaData.cumulative_variance_ratio.map(v => v * 100),
+        mode: 'lines+markers',
+        line: { color: '#10b981', width: 3 },
+        marker: { size: 8, color: '#059669' }
+      };
+      const layoutCum = {
+        paper_bgcolor: 'transparent',
+        plot_bgcolor: 'transparent',
+        margin: { t: 20, b: 40, l: 40, r: 20 },
+        xaxis: { title: 'Components Retained (k)', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        yaxis: { title: 'Cumulative Variance (%)', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        font: { color: '#94a3b8', family: 'Inter' }
+      };
+      Plotly.newPlot('cumvar-plot', [traceCum], layoutCum, { responsive: true, displayModeBar: false });
+
+      // Loadings
+      const feats = pcaData.loadings.map(l => l.feature.replace(/_/g, ' '));
+      const pc1Loadings = pcaData.loadings.map(l => l.pc1);
+      const pc2Loadings = pcaData.loadings.map(l => l.pc2);
+
+      const traceL1 = { y: feats, x: pc1Loadings, type: 'bar', orientation: 'h', name: 'PC1 Loading', marker: { color: '#3b82f6' } };
+      const traceL2 = { y: feats, x: pc2Loadings, type: 'bar', orientation: 'h', name: 'PC2 Loading', marker: { color: '#10b981' } };
+
+      const layoutLoadings = {
+        paper_bgcolor: 'transparent',
+        plot_bgcolor: 'transparent',
+        barmode: 'group',
+        margin: { t: 20, b: 40, l: 140, r: 20 },
+        xaxis: { title: 'Loading Coefficient', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+        legend: { orientation: 'h', y: 1.1, x: 0.1, font: { color: '#fff' } },
+        font: { color: '#94a3b8', family: 'Inter' }
+      };
+      Plotly.newPlot('loadings-bar-plot', [traceL1, traceL2], layoutLoadings, { responsive: true, displayModeBar: false });
+    }
+
+    // Live Projector
+    const PRESETS = {
+      high_achiever: { study: 30.0, attendance: 95.0, sleep: 8.0, screen: 2.0, extra: 12.0, stress: 2.0, gpa: 3.90, assignment: 98.0 },
+      balanced: { study: 18.0, attendance: 82.0, sleep: 7.0, screen: 4.5, extra: 8.0, stress: 5.0, gpa: 3.20, assignment: 80.0 },
+      distracted: { study: 8.0, attendance: 55.0, sleep: 5.0, screen: 7.5, extra: 3.0, stress: 8.5, gpa: 2.10, assignment: 50.0 }
+    };
+
+    function loadPreset(key) {
+      const p = PRESETS[key];
+      Object.keys(p).forEach(k => {
+        const input = document.getElementById(`input-${k}`);
+        if (input) input.value = p[k];
+      });
+      onSliderChange();
+    }
+
+    function onSliderChange() {
+      ['study', 'attendance', 'sleep', 'screen', 'extra', 'stress', 'gpa', 'assignment'].forEach(k => {
+        const val = document.getElementById(`input-${k}`).value;
+        const span = document.getElementById(`val-${k}`);
+        if (span) {
+          if (k === 'study' || k === 'sleep' || k === 'screen' || k === 'extra') span.innerText = `${val} hrs`;
+          else if (k === 'attendance' || k === 'assignment') span.innerText = `${val}%`;
+          else span.innerText = `${val}`;
+        }
+      });
+      triggerLiveProject();
+    }
+
+    async function triggerLiveProject() {
+      const payload = {
+        study_hours_weekly: parseFloat(document.getElementById('input-study').value),
+        attendance_rate: parseFloat(document.getElementById('input-attendance').value),
+        sleep_hours_daily: parseFloat(document.getElementById('input-sleep').value),
+        screen_time_daily: parseFloat(document.getElementById('input-screen').value),
+        extracurricular_hours: parseFloat(document.getElementById('input-extra').value),
+        stress_level: parseFloat(document.getElementById('input-stress').value),
+        prior_gpa: parseFloat(document.getElementById('input-gpa').value),
+        assignment_completion_rate: parseFloat(document.getElementById('input-assignment').value)
+      };
+
+      try {
+        const res = await fetch('/api/project', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        }).then(r => r.json());
+
+        // Update predictions
+        document.getElementById('pred-text').innerText = res.predicted_cohort;
+        document.getElementById('pred-conf').innerText = `${res.confidence.toFixed(1)}%`;
+        document.getElementById('pred-coords').innerText = `PC1 = ${res.pc1 >= 0 ? '+' : ''}${res.pc1.toFixed(2)}, PC2 = ${res.pc2 >= 0 ? '+' : ''}${res.pc2.toFixed(2)}`;
+
+        const pill = document.getElementById('prediction-pill');
+        if (res.predicted_cohort.includes('High')) {
+          pill.style.background = 'rgba(37, 99, 235, 0.2)';
+          pill.style.color = '#60a5fa';
+          pill.style.borderColor = '#2563eb';
+        } else if (res.predicted_cohort.includes('Balanced')) {
+          pill.style.background = 'rgba(5, 150, 105, 0.2)';
+          pill.style.color = '#34d399';
+          pill.style.borderColor = '#059669';
+        } else {
+          pill.style.background = 'rgba(220, 38, 38, 0.2)';
+          pill.style.color = '#f87171';
+          pill.style.borderColor = '#dc2626';
+        }
+
+        // Render reconstruction table
+        const tbody = document.getElementById('reconstruction-table-body');
+        tbody.innerHTML = '';
+        res.reconstruction.forEach(row => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td style="font-weight:600;">${row.feature.replace(/_/g, ' ')}</td>
+            <td>${row.original}</td>
+            <td style="color:#60a5fa">${row.reconstructed}</td>
+            <td><span style="color:${row.absolute_error > 1.5 ? '#f87171' : '#34d399'}">${row.absolute_error}</span></td>
+          `;
+          tbody.appendChild(tr);
+        });
+
+        // Render live projection scatter
+        if (GLOBAL_PCA) {
+          const bgTraces = {};
+          Object.keys(COHORT_COLORS).forEach(c => {
+            bgTraces[c] = { x: [], y: [], mode: 'markers', name: c, marker: { color: COHORT_COLORS[c], size: 5, opacity: 0.4 }, type: 'scatter' };
+          });
+          GLOBAL_PCA.points.forEach(p => {
+            if (bgTraces[p.cohort]) {
+              bgTraces[p.cohort].x.push(p.pc1);
+              bgTraces[p.cohort].y.push(p.pc2);
+            }
+          });
+
+          const liveMarkerTrace = {
+            x: [res.pc1],
+            y: [res.pc2],
+            mode: 'markers',
+            name: 'Your Student',
+            marker: {
+              symbol: 'cross',
+              size: 16,
+              color: '#fbbf24',
+              line: { color: '#ffffff', width: 2 }
+            },
+            type: 'scatter'
+          };
+
+          const layoutLive = {
+            paper_bgcolor: 'transparent',
+            plot_bgcolor: 'transparent',
+            margin: { t: 10, b: 35, l: 35, r: 10 },
+            xaxis: { title: 'PC1', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+            yaxis: { title: 'PC2', color: '#94a3b8', gridcolor: 'rgba(255,255,255,0.05)' },
+            showlegend: false,
+            font: { color: '#94a3b8', family: 'Inter' }
+          };
+
+          Plotly.newPlot('live-pca-scatter', [...Object.values(bgTraces), liveMarkerTrace], layoutLive, { responsive: true, displayModeBar: false });
+        }
+
+      } catch (err) {
+        console.error("Live project error:", err);
+      }
+    }
+
+    // On Load
+    window.addEventListener('DOMContentLoaded', initDashboard);
+  </script>
+</body>
+</html>
